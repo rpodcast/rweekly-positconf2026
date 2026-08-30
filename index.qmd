@@ -1,0 +1,96 @@
+---
+format:
+  revealjs:
+    auto-play-media: true
+    link-external-newwindow: true
+    menu: true
+    code-line-numbers: false
+    theme: [default]
+    footer: "[rpodcast.github.io/rweekly-positconf2026](https://rpodcast.github.io/rweekly-positconf2026/)"
+---
+
+## {#titleslide data-menu-title="Title Slide"}
+
+<h2>R Weekly</h2>
+<h4>Change subtitle here</h4>
+<br>
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+Eric Nantz
+
+Statistician / Developer / Podcaster
+
+Eli Lilly & Company
+
+{{< fa brands mastodon size=xl >}} [\@rpodcast](https://podcastindex.org/@rpodcast)
+
+{{< fa brands bluesky size=xl >}} [\@rpodcast](https://bsky.app/profile/rpodcast.bsky.social)
+
+{{< fa brands linkedin size=xl >}} [eric-nantz](https://www.linkedin.com/in/eric-nantz-6621617/)
+
+:::
+
+::: {.column width="30%"}
+
+{{< qrcode https://rpodcast.github.io/shinystate-positconf2025 qr1 width=200 height=200 >}}
+
+:::
+
+::::
+
+## Second Slide
+
+I will change this.
+
+## Thank You!
+
+:::: {.columns}
+
+::: {.column width=60%}
+
+::: {style="font-size: 0.7em"}
+
+📰 **R Weekly Site**:
+
+[rweekly.org](https://rweekly.org)
+
+🎤 **R Weekly Highlights Podcast**:
+
+[serve.podhome.fm/r-weekly-highlights](https://serve.podhome.fm/r-weekly-highlights)
+
+🏡 **Slides**: 
+
+[rpodcast.github.io/rweekly-positconf2026](https://rpodcast.github.io/rweekly-positconf2026/)
+
+:::
+
+![](assets/img/rpodcast-hexagon.png){width="20%"}
+
+:::
+
+::: {.column width=40%}
+
+::: {style="font-size: 0.7em"}
+
+**Let's Connect!**
+
+{{< fa solid microphone size=xl >}} [R-Podcast](https://r-podcast.org)
+
+{{< fa solid display >}} [Shiny Developer Series](https://shinydevseries.com)
+
+{{< fa brands mastodon size=xl >}} [\@rpodcast](https://podcastindex.org/@rpodcast)
+
+{{< fa brands bluesky size=xl >}} [\@rpodcast](https://bsky.app/profile/rpodcast.bsky.social)
+
+{{< fa brands linkedin size=xl >}} [eric-nantz](https://www.linkedin.com/in/eric-nantz-6621617/)
+
+{{< fa brands github size=xl >}} [rpodcast](https://github.com/rpodcast/)
+:::
+
+:::
+
+::::
+

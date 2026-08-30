@@ -1,0 +1,13 @@
+# nix files
+result
+
+# quarto files
+/.quarto/
+/_site/
+
+# other
+scratch/
+.Renviron
+snowflake.log
+
+**/*.quarto_ipynb

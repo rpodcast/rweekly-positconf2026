@@ -1,0 +1,5 @@
+project:
+  type: website
+  
+website: 
+  site-url: "https://rpodcast.github.io/rweekly-positconf2026"

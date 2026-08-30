@@ -1,0 +1,476 @@
+"login","name","company","location","bio","followers","public_repos","created_at","merged_prs"
+"ivelasq","Isabella Velásquez",NA,"Chicago, IL","%>% dreams",348,86,"2015-05-04T14:40:14Z",88
+"shikokuchuo","Charlie Gao","@posit-pbc","London, United Kingdom","Senior Software Engineer @posit-pbc",196,154,"2019-07-28T11:57:46Z",56
+"maelle","Maëlle Salmon","@ropensci","Nancy, France","R(esearch) Software Engineer, Blogger",1111,350,"2014-08-05T08:10:04Z",55
+"jonmcalder","Jon Calder","Libryo","Cape Town, South Africa","R Enthusiast 💻
+",139,167,"2013-07-20T22:42:02Z",54
+"HenrikBengtsson","Henrik Bengtsson","UCSF",NA,"Assoc Professor. R Foundation. R Consortium. Many R packages, e.g. future & matrixStats.",889,283,"2012-04-05T21:26:32Z",53
+"jonocarroll","Jonathan Carroll","@IrregularlyScheduledProgramming","Adelaide, South Australia","Recovering theoretical physicist / ongoing coffee addict / continually improving data scientist. I'm interested in open-source data projects, mainly in R.",284,226,"2014-11-01T10:03:49Z",51
+"AlbertRapp","Albert Rapp",NA,NA,NA,314,38,"2020-05-15T06:49:52Z",43
+"Ryo-N7","Ryo Nakagawara","@ACDIVOCATech ","Tokyo, Japan","#rstats | MSc. Business Psychology (UCL) | ⚽ #LFC | Data Scientist @ ACDI-VOCA (🌾 NGO) | R Weekly Member | Ex-⚽ Consultant @ 11tegen11 | Twitter: @R_by_Ryo",400,63,"2016-05-30T23:42:49Z",36
+"etiennebacher","Etienne Bacher",NA,NA,NA,217,129,"2019-06-25T20:03:15Z",26
+"hturner","Heather Turner","University of Birmingham","Birmingham, United Kingdom","Principal Research Software Engineer, Advanced Research Computing, University of Birmingham",222,85,"2013-01-22T19:46:54Z",26
+"hughjonesd","David Hugh-Jones",NA,NA,"Social scientist, R hacker",97,94,"2013-10-31T01:26:13Z",26
+"mikemahoney218","Michael Mahoney","@cafri-labs","Boston, MA","R, Python, and using data to understand this complex world we live in",273,89,"2018-04-09T21:18:36Z",24
+"martinctc","Martin Chan","Microsoft","London","Data Science @ Microsoft Viva",104,53,"2016-03-18T10:50:38Z",23
+"stephenturner","Stephen Turner","@UVADS","Charlottesville, VA","Associate Professor at the University of Virginia School of Data Science.",961,160,"2010-10-29T21:03:18Z",22
+"b-rodrigues","Bruno Rodrigues","MESR, Luxembourg","Luxembourg-City, Luxembourg",NA,468,217,"2012-12-09T01:09:06Z",21
+"amrrs","amrrs",NA,NA,NA,1106,686,"2013-08-30T14:24:38Z",17
+"chainsawriot",NA,"@gesistsa",NA,NA,254,256,"2011-02-25T03:52:49Z",17
+"jwijffels",NA,"www.bnosac.be","Brussels, Belgium","www.bnosac.be",204,150,"2012-05-06T15:03:34Z",16
+"malcolmbarrett","Malcolm Barrett","Stanford University","Ann Arbor, Michigan","Open-source data science. Ph.D. in Epidemiology",577,236,"2016-10-28T15:12:11Z",15
+"rolkra",NA,NA,"Vienna",NA,49,38,"2017-09-09T21:55:21Z",15
+"tbs08","TracyShen",NA,"State College, PA","Data Analyst | Editor @rweekly | Social Media Team Leader @forwards 
+ ",18,27,"2014-12-20T19:41:27Z",15
+"tomroh","Thomas Roh",NA,"Seattle","Data Scientist, Software Developer",28,59,"2014-02-13T04:44:27Z",15
+"ColinFay","Colin Fay","@ThinkR-open   ","Rennes, France","👨‍💻 Data Science and Engineering at @thinkr-open. 
+""Chaotic good developer"". 
+Loves building things, loves breaking things. 
+Runs 🏃‍♂️. 
+Eats plants 🌱.",921,196,"2016-03-18T21:04:08Z",14
+"lgellis","Little Miss Data",NA,NA,"Laura Ellis is a data nerd extraordinaire.  ",127,20,"2016-07-28T14:37:35Z",14
+"andrewheiss","Andrew Heiss","Georgia State University","Atlanta, GA","Assistant professor at @aysps at GSU. Study philanthropy, nonprofits, authoritarianism, & legal restrictions on civil society. R + Stan + sometimes Python.",1226,410,"2009-04-14T13:27:51Z",13
+"dependabot[bot]",NA,NA,NA,NA,0,0,"2019-04-16T22:34:25Z",13
+"rpodcast","Eric Nantz",NA,NA,"Statistician | R user | Host of the R-Podcast | Linux enthusiast",413,292,"2011-09-11T22:44:20Z",13
+"feddelegrand7","Ihaddaden Mohamed El Fodil",NA,"Hamburg",NA,172,118,"2017-05-21T13:28:46Z",12
+"kbodwin","Kelly N. Bodwin",NA,"San Luis Obispo, CA","Associate Professor of Statistics at California Polytechnic State University",197,95,"2016-09-11T19:08:43Z",12
+"mcdussault","Marie Christine Dussault",NA,"South Africa","physical anthropology postdoc with interest in data science, research methodology, and R stats",8,38,"2014-10-14T13:22:39Z",12
+"moldach","Matthew J. Oldach","Amaris Consulting","Canada","Experienced Bioinformatician/Data Scientist/DevOps skilled in data wrangling, statistical modeling, machine learning, visualization, release management.",93,19,"2013-10-22T17:45:49Z",12
+"s3rdia",NA,NA,NA,NA,4,7,"2021-03-26T22:35:53Z",12
+"jdblischak","John Blischak",NA,"Ohio, USA","Freelance Scientific Software Developer",439,352,"2012-04-03T13:44:27Z",11
+"KittJonathan","Jonathan Kitt","INRAE","Clermont-Ferrand",NA,25,18,"2020-08-21T09:23:30Z",11
+"rCarto","Timothée Giraud","CNRS","Paris, France","R packages",306,66,"2012-12-14T09:22:19Z",11
+"tonyelhabr","Tony ElHabr","Rhythm Energy","Austin, TX","data person",129,98,"2015-11-05T02:15:58Z",11
+"CuiweiG","Cuiwei Gao",NA,"London, United Kingdom","R package developer · Biostatistics · Mechanical engineering · Data analysis",2,14,"2025-02-18T21:06:39Z",10
+"dA505819","Dhruv Aggarwal",NA,"Delhi Ncr, India","A Detail oriented person who thrives to solve interesting, general and complex problems with scalable solutions that gives good aftermath results.
+",93,265,"2018-08-22T10:12:19Z",10
+"echasnovski","Evgeni Chasnovski",NA,"Kharkiv, Ukraine","Data science, Machine learning |
+R, Python, Lua |
+Neovim plugins",1269,71,"2016-12-31T14:13:38Z",10
+"jhelvy","John Helveston","George Washington University","Washington, D.C.","Associate Professor in EMSE @ GWU, Engineering, Sustainability, Technology Innovation Policy, EVs, China, Data Science, Rstats, Python",201,123,"2014-10-03T21:16:40Z",10
+"lorenzwalthert","Lorenz Walthert",NA,"Allschwil, Switzerland","ML engineer passionate about tooling. Believes in Christ.",153,215,"2015-01-10T15:22:11Z",10
+"mailund","Thomas Mailund",NA,"Denmark",NA,175,113,"2013-01-07T14:01:32Z",10
+"suzanbaert","Suzan",NA,"Belgium",NA,237,24,"2017-11-03T09:24:15Z",10
+"Bisaloo","Hugo Gruson","European Molecular Biology Laboratory","Heidelberg","Evolutionary Biologist turned Research Software Engineer in R.",170,100,"2015-01-31T09:02:50Z",9
+"RaoOfPhysics","Achintya Rao","COALESCE (UWE Bristol)","Bristol, UK","@COALESCE-SciComm communications (UWE Bristol); formerly CERN, Cambridge (@explorable-viz) and @alan-turing-institute; PhD in SciComm from UWE",142,114,"2014-05-18T20:10:50Z",9
+"seabbs","Sam Abbott","@epinowcast @EpiAware @epiforecasts","Bristol","Real-time infectious disease modelling. Developing tools and methods for outbreak response, routine surveillance, and pandemic preparedness.",310,129,"2016-07-06T09:56:45Z",9
+"deanmarchiori","Dean Marchiori",NA,"Sydney, Australia","Statistician | Data Scientist",62,29,"2014-11-04T21:39:09Z",8
+"hfshr","Harry Fisher",NA,"Cardiff",NA,22,36,"2018-06-19T14:59:05Z",8
+"JosiahParry","Josiah Parry","@Esri","Seattle","🦀 📦
+🌎 Spatial Stats @ Esri 📍",0,251,"2015-07-28T07:19:35Z",8
+"L-Groeninger","Lukas Gröninger",NA,"Hamburg",NA,24,17,"2018-05-02T16:13:44Z",8
+"MilesMcBain","Miles McBain",NA,"Brisbane, Queensland",NA,589,230,"2014-11-29T03:28:13Z",8
+"seasmith","Luke Smith",NA,"Houston, TX","#rstats",34,41,"2015-12-14T15:29:58Z",8
+"cutterkom","Katharina Brunner",NA,NA,"investigative data journalist @br-data, archivist @forummuenchen ",288,57,"2013-05-30T20:13:19Z",7
+"dieghernan","Diego H.",NA,"Madrid, ES",NA,186,65,"2017-02-09T07:14:57Z",7
+"DougVegas",NA,NA,NA,NA,3,8,"2014-10-30T18:03:16Z",7
+"eddelbuettel","Dirk Eddelbuettel",NA,"Chicago, IL, USA",NA,1944,589,"2011-03-16T13:44:54Z",7
+"EmilHvitfeldt","Emil Hvitfeldt","@posit-dev","California","All things @tidymodels",1073,365,"2015-08-29T22:39:18Z",7
+"gadenbuie","Garrick Aden-Buie","@posit-dev ","Atlanta, GA","Software engineer for Shiny at @posit-pbc",1202,335,"2013-09-09T18:07:08Z",7
+"JeffreyRStevens","Jeffrey Stevens","Canine Cognition and Human Interaction Lab, @UNL","Lincoln, NE","Professor, Department of Psychology, Center for Brain, Biology & Behavior, @UNL. Data Science Mentor at Posit.",32,45,"2019-06-04T15:03:13Z",7
+"jmaspons","Joan Maspons",NA,"Vallès, PPCC",NA,25,42,"2009-07-07T21:02:12Z",7
+"JorisChau","Joris C.","@OpenAnalytics","Belgium",NA,14,14,"2016-07-01T08:01:34Z",7
+"katiejolly","Katie Jolly",NA,"Seattle, WA","Data Science || Civic Engagement",134,76,"2016-08-30T14:32:40Z",7
+"Layalchristine24","Layal Christine Lettry","@cynkra","Fribourg","Econometrician,  data scientist @cynkra, #rstats enthusiast",16,39,"2017-08-21T07:12:21Z",7
+"mhoehle","Michael Höhle",NA,"Greifswald, Berlin, ...","Statistician, #rstats, problems in need of a solution, uncertainty...",64,91,"2013-11-17T10:47:28Z",7
+"noamross","Noam Ross","rOpenSci","Brooklyn, NY","Computational Disease Ecologist, Executive Director of @ropensci, consulting in forecasting, One Health, #RStats + open-source science",577,324,"2011-01-19T00:55:15Z",7
+"pat-s","Patrick Schratz","devXY","Switzerland","DevOps, FOSS, #rstats. codefloe.com founder. Public repos migrated to https://codefloe.com/pat-s",341,155,"2014-08-12T18:08:05Z",7
+"privefl","Florian Privé","Aíma Diagnostics (https://aima-diagnostics.com/)","Lyon/Grenoble, France","Data Scientist at Aíma (2025–)
+
+• Researcher in Statistical Human Genetics (2016–2025)
+ 
+• ENSIMAG (2013–2016)",311,113,"2015-02-23T14:55:24Z",7
+"amirmasoudabdol","Amir Masoud Abdol",NA,"Amsterdam, Netherlands","C++ Developer, Build System Engineer, CMake, CI/CD, DevOps, Qt, Computational Scientist",65,102,"2011-12-28T17:16:33Z",6
+"conorotompkins","Conor Tompkins",NA,"Pittsburgh, PA",NA,30,106,"2016-08-10T01:15:25Z",6
+"ekianjo",NA,NA,NA,NA,11,35,"2012-10-01T04:36:38Z",6
+"eokodie","Ernest Omane-Kodie",NA,"UK",NA,5,0,"2018-04-08T22:17:32Z",6
+"jlacko","Jindra Lacko",NA,"Prague, Czech Republic","#rstats fanboy",67,71,"2017-06-07T18:17:23Z",6
+"kgjerde","Kristian Lundby Gjerde","Norwegian Institute of International Affairs (NUPI)",NA,NA,10,3,"2017-02-01T12:43:37Z",6
+"kinto-b","Kinto","Trivago","Düsseldorf, Germany","Statistician - Data Scientist",23,20,"2020-03-10T01:12:50Z",6
+"mkmiecik14","Matt Kmiecik","23andMe","Redwood City, CA","Cognitive neuroscientist studying Parkinson's Disease.",21,31,"2017-06-10T21:31:59Z",6
+"paul-carteron","Paul Carteron",NA,"France","Spatial Data Science Enthusiast || R",33,30,"2020-07-30T06:53:03Z",6
+"psolymos","Peter Solymos",NA,"Edmonton, Canada","Tech-bio-nerd",138,115,"2011-06-06T01:37:21Z",6
+"rstub","Ralf Stubner","@rstudio, @posit-dev","Berlin, Germany","Software Engineer, Consultant, Physicist",87,52,"2017-04-20T15:55:32Z",6
+"ymansiaux","Yohann Mansiaux","ThinkR","Bordeaux, France","R trainer and developer",15,71,"2019-04-04T08:03:24Z",6
+"alfredo-hs","Alfredo Hernandez Sanchez",NA,NA,"Computational social scientist studying narratives in politics and finance. 
+Quantitative Text Analysis | Data Visualization | Open-Source Tools in R",26,16,"2019-03-20T16:46:44Z",5
+"boiled-data",NA,NA,NA,NA,7,12,"2020-11-05T08:10:56Z",5
+"bschneidr","Ben Schneider",NA,"Silver Spring, MD","Survey statistician at Westat",35,54,"2016-06-08T01:57:04Z",5
+"gvelasq","Gustavo Velásquez",NA,"United States",NA,24,72,"2016-07-28T21:44:43Z",5
+"ijlyttle","Ian Lyttle",NA,"Iowa City, Iowa, USA",NA,168,174,"2012-11-15T01:48:48Z",5
+"jhk0530","Jinhwan Kim","@jahnen","Seoul, South Korea","Developer",116,50,"2014-01-21T06:34:46Z",5
+"JiaxiangBU","Jiaxiang Li",NA,"Shanghai, China","李家翔 | Reviewer of XGBoost | Commiter of workflowr,tidypredict | R package developer | R, Python, Hive user | Modeler to launch solutions into production
+",140,262,"2015-11-17T07:09:00Z",5
+"Jokasan","N_Ind",NA,NA,"Official repo for Nils Indreiten 🦁",11,43,"2020-10-19T14:30:58Z",5
+"jrosen48","Joshua Rosenberg","Joshua Rosenberg","United States","Associate Professor at the University of Tennessee, Knoxville",87,208,"2013-06-03T01:15:29Z",5
+"liao961120","Yongfu Liao","Syracuse University","Syracuse, New York",NA,101,154,"2017-10-19T09:26:20Z",5
+"matanhakim","Matan Hakim",NA,"Israel","Head of Research, The Israeli Institute for Cultural Policy.
+Social Sciences, Data Science, Analytics, Rstats, Tidyverse.",12,25,"2022-08-23T13:26:09Z",5
+"terrytangyuan","Yuan Tang","Red Hat","USA","Senior Principal Engineer at Red Hat | Lead @argoproj @kubeflow @kserve @cncf | Maintainer @tensorflow XGBoost | Author | Speaker | Advisor",3885,169,"2013-04-27T02:01:53Z",5
+"thebioengineer","Ellis Hughes",NA,"Seattle, WA","Bioengineer turned Data Scientist. Born and raised in the PNW.
+
+I enjoy tinkering and learning new languages!
+
+Opinions are my own",221,80,"2016-09-27T18:46:32Z",5
+"benmarwick","Ben Marwick","University of Washington","Seattle",NA,687,325,"2011-12-14T05:22:10Z",4
+"cgoo4","Carl Goodwin",NA,NA,NA,19,5,"2017-09-30T17:35:50Z",4
+"cregouby",NA,"Airbus","Toulouse, France",NA,28,89,"2014-12-09T23:56:56Z",4
+"d4tagirl","Daniela Vazquez",NA,"Montevideo, Uruguay","Data Scientist at Idatha. @NASADatanauts and @rladies. Past: Equifax.",128,32,"2015-07-26T21:48:51Z",4
+"davidkane9","David Kane","New College of Florida","Sarasota, FL","Visiting Assistant Professor of Techne, New College of Florida
+",79,24,"2013-05-28T19:53:35Z",4
+"davidrsch","David",NA,"A Coruña, Galicia, Spain","Always trying to outdo myself.
+",30,50,"2020-10-11T04:19:31Z",4
+"ddotta","Damien Dotta","@SSM-Agriculture ","France","French data scientist",72,77,"2015-07-18T20:27:09Z",4
+"dshkol","Dmitry Shkolnik",NA,"San Francisco","oss work: geo, census data, ai harnesses for geo and census data / work: marketplace ds and applied ai",41,61,"2013-11-04T03:41:19Z",4
+"egeulgen","Ege Ulgen","@genomicsengland","London","MD, PhD - Bioinformatics Engineer",85,27,"2015-06-11T18:53:39Z",4
+"EllaKaye","Ella Kaye",NA,"Oxford, England","Senior Research Software Engineer in the Department of Advanced Research Computing at the University of Birmingham. R, #rstats and #quartopub enthusiast ",110,139,"2014-04-08T08:24:42Z",4
+"FelixAnalytix","FelixAnalytix",NA,NA,"R Tips and Tricks for Data Analytics",38,1,"2021-11-01T21:24:37Z",4
+"HaydenMacDonald","Hayden MacDonald",NA,"UK","Data analyst interested in platform businesses, product analytics, and data visualization.",17,23,"2017-07-11T14:47:41Z",4
+"iamericfletcher","Eric Fletcher","MIT Schwarzman College of Computing","Cambridge, MA","Executive Assistant with a passion for technology.
+
+",82,29,"2020-04-22T19:48:58Z",4
+"karoliskoncevicius","Karolis Koncevičius",NA,"Vilnius, Lithuania",NA,73,19,"2014-04-12T15:16:14Z",4
+"kwstat","Kevin Wright","Corteva Agriscience","Iowa","Statistician",102,46,"2010-11-16T18:18:39Z",4
+"mine-cetinkaya-rundel","Mine Cetinkaya-Rundel","Duke University, @posit-pbc","Durham, NC","Professor at Duke University + Developer Educator at Posit PBC",2214,321,"2013-11-18T05:24:43Z",4
+"mthomas-ketchbrook","Michael Thomas","Ketchbrook Analytics","Hartford, CT, USA","Chief Data Scientist @ Ketchbrook Analytics",65,40,"2019-07-11T20:14:17Z",4
+"nrennie","Nicola Rennie","Office for National Statistics","Edinburgh, United Kingdom","Data visualisation specialist. Generative artist. Runner of endurance races. Neat freak. She/her.",1025,122,"2018-08-13T08:29:25Z",4
+"qinwf","qinwf",NA,NA,NA,0,26,"2014-05-03T04:47:48Z",4
+"RachaelDempsey","Rachael Dempsey","Posit","Boston, MA","Enterprise Advocate @ Posit",40,15,"2017-10-20T15:48:05Z",4
+"sinarueeger","Sina Rüeger",NA,"Finland","Genomic data analyst, interested in statistical genetics, R, data visualization and analysis pipelines.",75,60,"2013-05-17T07:14:19Z",4
+"uribo","Shinya Uryu","Tokushima University (徳島大学)","Tokushima, Japan","R / Data Engineer / Geo / Ecology / Visualization / Tokushima University (徳島大学)",394,223,"2010-03-23T12:40:51Z",4
+"abresler","Alex Bresler","ASBC LLC","New York","R evangelist, data-hunter, seed investor, Angus MacGyver-ist",322,216,"2011-04-20T04:03:45Z",3
+"aosmith16","Ariel Muldoon",NA,NA,NA,91,22,"2015-03-24T22:11:43Z",3
+"apreshill","Alison Presmanes Hill","Pixeltable","Bozeman, MT",NA,1367,320,"2015-04-28T21:26:33Z",3
+"ashbaldry","Ashley Baldry","@AscentSoftware ","Basingstoke",NA,46,28,"2014-08-11T19:13:32Z",3
+"BatoolMM","Batool Almarzouq","University of Liverpool, Alan Turing Institute","Liverpool, UK","Ph.D. in Biochemistry. Experience in cancer bioinformatics, RNA-Seq, network biology, pathway enrichment, and integrated –omics analyses, Docker, HPC (She/her).",188,130,"2019-07-30T16:08:10Z",3
+"brendensm","B",NA,NA,NA,12,53,"2022-01-06T15:07:32Z",3
+"calderonsamuel","Samuel Calderon","@appsilon","Lima, PE","Peruvian political scientist / R evangelist / R shiny dev at Appsilon",49,93,"2016-05-17T22:47:11Z",3
+"cenuno","Cristian E. Nuno",NA,"Bay Area, CA","Cristian E. Nuno is a software engineer who believes that open-source technologies empower people to ask and answer the questions that matter to them. ",65,420,"2016-11-29T19:07:52Z",3
+"coatless","James J Balamuta",NA,"United States","omnipresent explorer of the unknown, fashionably caffeinated informatics phd, amorous cavalier. design, build, analyze. #rstats #python @tmsalab",405,62,"2011-06-06T20:51:14Z",3
+"CodingTigerTang","Tiger Tang",NA,NA,"Data Science @ CARFAX",7,24,"2017-02-10T01:19:05Z",3
+"daattali","Dean Attali","AttaliTech Ltd","Toronto","Founder & Lead R-Shiny consultant @ AttaliTech Ltd. Passionate about writing open source tools. Extreme traveller.",2303,67,"2011-08-01T18:25:29Z",3
+"dirkschumacher","Dirk Schumacher","Freelancer","Berlin","Freelance Software Developer",358,160,"2012-03-23T22:06:49Z",3
+"emilyriederer","Emily Riederer",NA,"Chicago, IL",NA,375,28,"2016-06-07T11:48:36Z",3
+"faridovski","Farid Azouaou","@thaink2","Metz, France",NA,1,3,"2024-02-05T10:48:32Z",3
+"ghost","Deleted user",NA,"Nothing to see here, move along.","Hi, I'm @ghost! I take the place of user accounts that have been deleted.
+:ghost:
+",12893,0,"2008-05-13T06:14:25Z",3
+"giocomai","Giorgio Comai","OBCT/CCI","Trentino","Researcher @BalcaniCaucaso, crunching data @EDJNet, previously at Dublin City University.",87,108,"2015-03-02T18:23:52Z",3
+"GuangchuangYu","Guangchuang Yu","Southern Medical University","Guangzhou, China","Professor of Bioinformatics at Southern Medical University.",3124,105,"2011-02-19T07:25:23Z",3
+"iamYannC","Yann Cohen",NA,NA,"I love everything to do with Data.
+
+Cycling down the Americas since 2018 😎
+Canada => Argentina",1,19,"2023-04-12T14:29:15Z",3
+"jonthegeek","Jon Harmon","@dslc-io","Austin, TX","Executive Director at DSLC.io (fka @r4ds) | Principal Developer (@atorus-research)",362,188,"2017-11-25T14:48:43Z",3
+"karawoo","Kara Woo","@posit-dev",NA,NA,426,185,"2013-05-17T01:21:23Z",3
+"katiesegreti","Katie","Pluto Transit Authority","~NYC","data and automation plus I like to make pixel art in R",5,24,"2015-08-21T14:44:33Z",3
+"khailper",NA,NA,NA,NA,1,41,"2015-07-07T13:46:14Z",3
+"lhehnke","Lisa Hehnke",NA,"Berlin, Germany",NA,109,31,"2016-04-18T12:04:00Z",3
+"markvanderloo","Mark van der Loo","Eurostat | University of Leiden","Netherlands","math, programming, data",272,55,"2012-07-05T13:10:29Z",3
+"mcanouil","Mickaël Canouil",NA,"Lille, France","Biostatistician, Ph. D. (& cinephile 🎬)
+@quarto-dev wizard 🧙‍♂️",425,123,"2014-09-24T08:30:46Z",3
+"melissavanbussel","Melissa Van Bussel",NA,"Ottawa","#rstats enthusiast;
+
+M. Sc. (Statistics), A. Stat., B. Sc. H. (Mathematics & CS, Specialization in Statistics)",273,72,"2017-05-14T23:25:26Z",3
+"mkearney","Michael W. Kearney","Meijer","Grand Rapids, Michigan","📊🧑‍💻📊 Data Science & AI Manager
+",785,213,"2015-07-19T07:00:30Z",3
+"Nowosad","Jakub",NA,"Münster, Germany","Geocomputation, Pattern Analysis, Spatial Data Mining, Geostatistics, and R. ",915,140,"2013-02-02T14:18:20Z",3
+"olgamie","Olga Mierzwa-Sulima","@Appsilon ","Warsaw","Data scientist @Appsilon ",23,21,"2013-05-02T11:56:35Z",3
+"pablobernabeu","Pablo Bernabeu","University of Oxford",NA,"As a cognitive psychologist and linguist, I conduct research and data analysis on digitally-enhanced childhood learning, language and perception.
+
+SSI Fellow ",30,69,"2016-07-13T09:15:58Z",3
+"scheithauer",NA,NA,"Munich, Germany",NA,6,8,"2018-05-07T12:48:58Z",3
+"schochastics","David Schoch","cynkra","Germany","Data Scientist/DevOps Engineer at cynkra and #RStats developer",469,142,"2016-02-09T18:30:12Z",3
+"shahronak47","Ronak Shah",NA,"Pune, India",NA,68,64,"2014-12-12T10:12:28Z",3
+"StatsRhian","Rhian Davies","@The-Strategy-Unit @r-lgbtq @nhs-r-community ","North Tyneside","🧮 NHS Data Scientist @The-Strategy-Unit | 🗣️ Stats ambassador @royal-statistical-society | 👩‍💻 #RStats educator |
+💜 Community champion",95,95,"2014-03-21T01:55:22Z",3
+"tomsing1","Thomas Sandmann","Arc Institute","United States","Computational Biologist hunting for new drugs to treat neurodegeneration. Enjoys learning new programming languages, statistical methods and @datacarpentry",56,69,"2015-01-11T23:33:39Z",3
+"urswilke",NA,NA,NA,"https://gitlab.com/urswilke
+
+https://urssblogg.netlify.app/",8,32,"2015-08-25T21:17:52Z",3
+"AbdoulMa","Abdoul Madjid",NA,"Dijon, France","Full Stack Developer, Data Science Enthusiast.",69,19,"2018-09-25T14:17:53Z",2
+"adomingues","A. Domingues",NA,"Germany","Former bench (neuro)biologist converted to RNA biology and data analysis. I speak _pipette_ and _keyboard_. ",37,52,"2012-10-20T17:10:23Z",2
+"aitap",NA,NA,NA,NA,0,46,"2011-03-26T19:54:36Z",2
+"amart90","Anthony Martinez","U.S. Geological Survey, Data Science Branch",NA,"Almost all my development in internal GitLab.
+See examples of publicly released code at:
+https://www.usgs.gov/staff-profiles/anthony-martinez#software",8,26,"2017-02-15T23:19:49Z",2
+"asafichaki",NA,NA,NA,NA,1,32,"2015-11-16T14:51:38Z",2
+"atheriel","Aaron Jacobs","@rstudio, @posit-dev","Toronto, Canada",NA,78,78,"2012-02-18T02:38:13Z",2
+"brodieG","Brodie Gaslam",NA,NA,"Hobbyist programmer based on the East Coast of the USA.  Interested in data analysis and visualization.",179,53,"2013-12-04T14:59:39Z",2
+"brucemeng","Bruce Meng",NA,NA,NA,1,2,"2015-10-07T23:23:03Z",2
+"BruceZhaoR","BruceZhao",NA,"Shanghai China","RStats, interested in Statistics Models, Machine/Deep Learning, Data visualization, High Performance Computing ... ",158,68,"2014-07-07T16:18:17Z",2
+"bruno-ponne","Bruno Gasparotto Ponne",NA,"Hamburg",NA,16,20,"2020-09-10T19:35:22Z",2
+"CharlesBordet","Charles",NA,"France",NA,32,29,"2014-04-08T17:09:16Z",2
+"chucheria","Bea",NA,"Spain",NA,124,49,"2014-05-25T19:20:07Z",2
+"ctoney","Chris Toney","@firelab ","Missoula, Montana",NA,10,18,"2011-12-17T18:21:11Z",2
+"dariia-m","Dariia Mykhailyshyna",NA,"Kyiv, Ukraine","Postdoctoral researcher @kse-ua ",19,16,"2019-07-18T07:09:46Z",2
+"dgkeyes","David Keyes","R for the Rest of Us","Portland, OR",NA,121,88,"2015-08-25T22:45:48Z",2
+"evanmiyakawa","Evan Miyakawa",NA,NA,NA,20,9,"2017-02-02T21:45:49Z",2
+"gergness","Greg Freedman Ellis","crunch.io","St Paul, MN","Interested in public health, statistics, and programming. Currently at the crunch.io, previously at CHR, MPC, Iowa DPH and IHME.",68,55,"2012-08-06T16:45:57Z",2
+"gigikenneth","Gigi🌻","Asele","Warsaw, Poland",NA,54,68,"2019-07-06T11:59:27Z",2
+"gilliganondata","Tim Wilson","facts & feelings","Dublin, Ohio, USA","R enthusiast. Part-time wit. Full-time curmudgeon. Co-host of 
+the Analytics Power Hour podcast.",89,44,"2016-05-16T21:21:47Z",2
+"harshvardhaniimi","Harshvardhan","American University of Sharjah","Sharjah, UAE","Assistant Professor of Information Systems & Analytics, American University of Sharjah · ML, applied statistics & business decision-making",45,49,"2018-06-21T18:28:35Z",2
+"HenningLorenzen-ext-bayer","Henning Lorenzen","Contractor on behalf of Bayer AG",NA,NA,29,46,"2021-08-19T09:27:11Z",2
+"IsadoreNabi","José Mauricio Gómez Julián",NA,NA,"Economist and Data Scientist. 12 R packages on CRAN: Bayesian statistics, time series, topology, causal inference. Philosophy of science and political economy.",1,20,"2021-01-12T20:19:20Z",2
+"jakubsob","Jakub Sobolewski","Appsilon","Warsaw, Poland",NA,37,32,"2018-03-08T20:07:11Z",2
+"jeroen","Jeroen Ooms",NA,"Utrecht","Staff research engineer at @ropensci, tidyverse team member, and project lead for R-universe",1879,109,"2010-03-05T04:47:30Z",2
+"leynu","Leyla","IQVIA","Sweden","Sr Biostatistician",12,20,"2017-08-30T10:07:29Z",2
+"lpembleton","Luke Pembleton","Barenbrug Global","Melbourne, Victoria","Genomic Breeding Scientist | Global Science Manager at Barenbrug.",27,41,"2021-04-21T15:10:35Z",2
+"luisDVA","Luis Verde Arregoitia",NA,"Xalapa, México","mammalogist",169,116,"2013-09-30T23:35:23Z",2
+"matt-dray","Matt Dray","UK public sector","London, UK","#DataScience #PublicSector #AlmondCroissants",223,132,"2016-04-02T14:36:35Z",2
+"max-alletsee","Max Alletsee",NA,"Geneva, Switzerland","Max is typing...",17,9,"2014-02-10T13:37:59Z",2
+"MCMaurer","Michael Culshaw-Maurer","Metro Transit (MN)",NA,"Senior Data Scientist at Metro Transit (MN)",27,112,"2015-11-17T01:49:53Z",2
+"MCodrescu","Marcus Codrescu",NA,NA,"Principal Data/AI Engineering at @att",4,25,"2021-12-02T19:36:03Z",2
+"mdequeljoe","Matthew de Queljoe",NA,"France",NA,11,14,"2017-11-04T12:00:46Z",2
+"MohammedFCIS","Mohammed Ali","@interstellar-egypt",NA,"Data Analyst at Interstellar ",22,92,"2014-01-12T11:21:46Z",2
+"mrkaye97","matt",NA,NA,NA,71,37,"2018-10-17T03:10:59Z",2
+"mrustl","Michael Rustler","Kompetenzzentrum Wasser Berlin gGmbH","Berlin","Researcher @KWB-R ",23,76,"2015-04-15T15:40:22Z",2
+"mstrimas","Matt Strimas-Mackey","Cornell Lab of Ornithology",NA,"I write code for bird conservation.",190,45,"2014-04-15T00:33:01Z",2
+"njtalingting","NJ Talingting ",NA,"Philippines","R Developer",0,3,"2026-03-10T16:33:13Z",2
+"novica","Novica Nakov","Norwegian Veterinary Institute","Oslo",NA,69,59,"2009-12-10T19:27:49Z",2
+"olivroy",NA,NA,"Québec",NA,66,142,"2019-07-06T16:54:37Z",2
+"oscarbaruffa","Oscar Baruffa",NA,NA,NA,138,29,"2016-01-06T18:29:09Z",2
+"osofr","Oleg Sofrygin","UC Berkeley","San Francisco, CA",NA,65,24,"2014-02-18T23:01:01Z",2
+"realHenningLorenzen","Henning Lorenzen",NA,NA,NA,18,5,"2020-02-18T07:56:38Z",2
+"rentrop","Floo0","VNR Verlag für die Deutsche Wirtschaft AG","Bad Godesberg, Germany","
+We are hiring: https://www.karriere.vnrag.de/
+",93,10,"2014-11-05T17:43:43Z",2
+"richfitz","Rich FitzJohn","@genomics-dev","London, UK",NA,443,85,"2012-03-20T20:23:12Z",2
+"RobWHickman","Robert Hickman",NA,"London","Quantitative Developer",60,45,"2016-04-15T12:29:23Z",2
+"rsangole","Rahul",NA,"Cupertino, California, USA","Data Scientist focussed on time series forecasting & anomaly detection",107,94,"2014-01-07T23:01:23Z",2
+"rweeklyteam",NA,NA,NA,NA,0,1,"2020-03-28T05:02:39Z",2
+"sahirbhatnagar","Sahir Bhatnagar","@5PrimeSciences","Montreal, QC, Canada",NA,57,82,"2013-07-23T14:17:34Z",2
+"shanlong-who","Shanlong Ding","WHO","Manila","What is data? To me, data is the essence behind everything. I love using my knowledge to uncover the stories hidden within data.",2,14,"2023-08-17T23:52:45Z",2
+"sharlagelfand","Sharla Gelfand",NA,NA,NA,266,65,"2015-11-17T18:40:52Z",2
+"svitkin","Sol Vitkin",NA,NA,NA,6,29,"2015-03-25T23:29:35Z",2
+"taraskaduk","Taras Kaduk",NA,"USA",NA,24,21,"2015-12-02T23:53:37Z",2
+"tin900",NA,NA,NA,NA,2,6,"2022-09-16T12:07:51Z",2
+"Tomeriko96",NA,NA,NA,NA,5,18,"2016-08-06T20:41:53Z",2
+"tvroylandt","Thomas Vroylandt","Kantiles","Chantilly, France","Data everything @kantiles ",56,42,"2017-05-01T05:55:08Z",2
+"VisruthSK","Visruth Srimath Kandali","Cal Poly SLO",NA,"Student and @stan-dev developer.",22,60,"2020-06-25T17:44:50Z",2
+"walkerkq","Kaylin Pavlik",NA,"Minneapolis, MN",NA,102,42,"2014-06-03T15:02:49Z",2
+"wdenton","William Denton","York University","Toronto, ON","Librarian, artist and licensed private investigator.",79,4,"2009-02-13T04:29:14Z",2
+"WilliamTylerBradley","Tyler Bradley",NA,"Asheville, NC",NA,1,50,"2015-10-13T01:33:21Z",2
+"wlandau","Will Landau",NA,"Indianapolis, IN","Statistician and developer",529,177,"2012-03-27T18:46:11Z",2
+"xmc811","Mingchu Xu",NA,"Vienna, VA, USA","Machine Learning Engineering I Bioinformatics",43,29,"2014-06-04T05:21:09Z",2
+"1danjordan","Daniel Jordan","Wayflyer ","Ireland","Head of Data in Wayflyer",10,29,"2014-09-25T10:17:28Z",1
+"abichat","Antoine Bichat",NA,"Paris","Computational Scientist
+#RStats #DataScience",114,61,"2017-07-19T20:01:41Z",1
+"aczepielik","Adam Czepielik",NA,NA,NA,8,16,"2017-11-23T22:59:30Z",1
+"albersonmiranda","Alberson Miranda","Bank of the State of Espírito Santo","Vitória, Brazil","Data Scientist, Phd student, economist  and mathematician.",40,36,"2018-12-07T13:32:36Z",1
+"AmeliaMN","Amelia McNamara",NA,"Minneapolis, MN","Statistics professor at the University of St Thomas, Minnesota. Interested in improving the computer tools used to do statistics. ",399,109,"2012-10-17T00:11:12Z",1
+"anderic1",NA,NA,NA,NA,1,8,"2017-11-23T08:38:26Z",1
+"andreykh1985",NA,NA,NA,NA,3,23,"2016-01-18T06:34:38Z",1
+"annakrystalli","Anna Krystalli","@r-rse","Syros, Greece","Research Software Engineering Service in #rstats at @r-rse. Ex @RSE-Sheffield. Editor @ropensci. Core team member @reprohack.
+
+Available for hire! 🚀😎",366,242,"2013-10-01T06:57:59Z",1
+"AntoineSoetewey","Antoine Soetewey",NA,"Belgium","Postdoctoral researcher in data science and statistics",209,39,"2016-03-17T17:01:35Z",1
+"arcruz0","Andrés Cruz","UT Austin",NA,NA,85,26,"2017-05-22T01:39:40Z",1
+"Arnold-Kakas","Arnold Kakas","Kakas Arnold","Slovakia","Data Analyst | R | SQL | PBI | DAX | M | Excel",6,34,"2022-09-05T08:23:34Z",1
+"asitav-sen","Asitav Sen",NA,NA,"Data and Decision Science for Business and Society",12,33,"2020-05-30T09:28:58Z",1
+"aTnT",NA,"Skylab Analytics",NA,NA,10,24,"2012-12-29T18:06:58Z",1
+"aurielfournier","Auriel M.V. Fournier","Illinois Natural History Survey","Havana, IL ","Director Forbes Biological Station; Illinois Natural History Survey",127,87,"2014-05-27T01:28:40Z",1
+"BajczA475","Alex Bajcz",NA,"St. Paul, MN",NA,5,8,"2015-11-02T23:01:14Z",1
+"Bakaniko","Nicolas Roelandt",NA,"France","Geodata analyst, GIS engineer, FLOSS addict, really like R, Python and PostgreSQL/PostGIS.
+@OSGeoLive PSC Member.
+Charter member of @OSGeo",56,77,"2016-03-06T08:49:34Z",1
+"baslat",NA,NA,NA,NA,0,31,"2015-10-05T01:50:42Z",1
+"bastianolea","Bastián Olea Herera",NA,"Santiago, Chile","Magíster en sociología (PUC). Análisis y visualización de datos usando R. Desarrollo de aplicaciones web interactivas para la visualización de datos.",361,115,"2013-02-05T02:19:15Z",1
+"bauer-alex","Alexander Bauer",NA,NA,NA,18,17,"2016-06-27T18:34:56Z",1
+"benubah","Ben",NA,NA,NA,43,29,"2015-03-06T22:34:00Z",1
+"BenWiseman","Ben Wiseman",NA,"San Diego, CA",NA,6,15,"2015-03-06T05:16:14Z",1
+"bfgray3","bernie gray",NA,"Philadelphia","científico de datos y desarrollador de software",39,18,"2016-07-06T00:58:26Z",1
+"bioszen","Pinkus Szenfeld",NA,NA,"Biochemist focused on molecular biology, precision medicine, and lysosomal storage disorders. I develop reproducible tools for data analysis and visualization.",4,7,"2025-12-20T19:23:12Z",1
+"BjarkeHautop","Bjarke Hautop","University of Copenhagen","Denmark","MSc in Statistics. Working as a research assistant at Copenhagen University's section for biostatistics.",10,46,"2022-03-28T16:33:01Z",1
+"boshek","Sam Albers","Hakai Institute",NA,"Just trying to bring people together",102,112,"2016-04-14T22:30:19Z",1
+"brenwin1","Brenwin","@socialresearchcentre ",NA,NA,2,6,"2020-04-02T05:28:26Z",1
+"briatte","François Briatte",NA,"Lille / Paris, France","Political scientist interested in network analysis and French elections. Speaks English, French, R, Stata. No AI / LLMs.",511,109,"2010-07-04T15:31:34Z",1
+"bruceyyu","Bruceshark",NA,"Hong Kong","Coding for science by day, for product by night",54,23,"2017-11-21T14:41:50Z",1
+"BrydenFrancesca","Fran",NA,NA,NA,0,18,"2019-02-07T09:14:32Z",1
+"carlislerainey","Carlisle Rainey","Florida State University","Tallahassee, FL","political scientist at FSU",156,53,"2012-07-13T13:20:29Z",1
+"christophscheuch","Christoph Scheuch","HU Berlin","Berlin","Making finance and economics research more trustworthy | Data Editor @ Society for Financial Studies · Researcher @ HU Berlin · Co-creator of tidy-finance.org",93,15,"2016-05-08T10:31:12Z",1
+"cmaimone","Christina Maimone","Northwestern University Research Computing and Data Services",NA,NA,34,11,"2015-09-16T00:19:55Z",1
+"ctufts","Chris Tufts",NA,NA,NA,28,53,"2015-01-29T19:07:29Z",1
+"czeildi","Ildikó Czeller","Kogentum Kft, Sunbasket","Budapest, Hungary","Mathematician, Data Scientist and R user, previously software engineer working mainly with JS. Organizer and mentor at TechCamp by @a-gondolkodas-orome ",40,44,"2014-11-09T11:39:12Z",1
+"danielvartan","Daniel Vartanian","@cem-usp @sustentarea","São Paulo, Brazil","Media Manager at Talent (Publicis Groupe). Research Collaborator at @cem-usp and @sustentarea.",78,96,"2017-06-15T16:47:01Z",1
+"daniloderosa","Danilo De Rosa","Visualitics","Turin, Italy","Data Editor & Data Visualization Designer (best job in the world 😎)",0,25,"2020-11-06T12:16:57Z",1
+"dansmith01","Daniel Smith","Baylor College of Medicine","Olympia, WA","Bioinformatics programmer at Baylor College of Medicine, specializing in visualization of microbiome datasets.",12,6,"2012-07-30T17:00:32Z",1
+"daranzolin","David Ranzolin","@SFOEWD",NA,"Data Analyst and Analytics Developer",185,124,"2014-11-03T19:13:26Z",1
+"daroczig","Gergely Daróczi","@SpareCores / @rxstudioinc","Los Angeles & Hungary","Open-source R & Python dev; ex @cardcorp, @openmail, (co)founder of @SpareCores, @rxstudioinc, @Rapporter, @satRdays, @eRum2018, R meetup. Father of 👦👧👧👶.",415,129,"2010-11-24T23:59:18Z",1
+"datalorax","Daniel Anderson","University of Oregon","Eugene, OR","Data scientist at Abl (https://github.com/ablschools). Formerly I was a Research Associate Professor in the College of Education at the University of Oregon.",215,71,"2015-02-10T16:15:20Z",1
+"davidgohel","David Gohel","ArData","Paris",NA,590,39,"2013-05-03T13:31:42Z",1
+"dfalbel","Daniel Falbel","@nubank","Brazil","MLE @nubank | ex @posit-dev / @rstudio",783,240,"2013-06-15T19:25:48Z",1
+"dicorynia",NA,NA,NA,NA,1,15,"2017-08-21T10:59:59Z",1
+"dpprdan","Daniel Possenriede",NA,"Hamburg, Germany",NA,35,126,"2012-02-09T16:30:35Z",1
+"drmowinckels","Athanasia Monika Mowinckel","@LCBC-UiO @capro-uio ","Oslo, Norway","Staff researcher at @LCBC-UiO (www.oslobrains.no) and @Lifebrain (www.lifebrain.uio.no/). PhD in Cognitive Neuroscience. Chapter head for @rladies Oslo",198,74,"2015-08-28T10:35:08Z",1
+"dselivanov","Dmitry Selivanov","rexy.ai","London",NA,380,105,"2013-07-30T19:21:40Z",1
+"earobinson95","Emily A. Robinson","Cal Poly","San Luis Obispo","Assistant Professor of Statistics",21,48,"2018-11-16T16:55:20Z",1
+"EconomiCurtis","Curtis Kephart","Posit / RStudio. Formerly of New York University Abu Dhabi and @SSEL-NYU, and UC Santa Cruz and LEEPS Lab","USA","Economist & Data Scientist
+",65,70,"2013-05-14T18:04:26Z",1
+"EdwinTh","Edwin Thoen","Funda","Leiden-The Hague area, the Netherlands","Data scientist at Funda. Author of the R package padr.",94,58,"2016-08-19T15:22:06Z",1
+"eitsupi",NA,NA,"Tokyo, Japan",NA,205,191,"2019-05-22T10:57:58Z",1
+"eliocamp","Elio Campitelli",NA,"Melbourne, Australia","Research Fellow at Monash University
+",274,181,"2014-09-01T17:00:10Z",1
+"elisedupuis","Elise Dupuis",NA,"Geneva, Switzerland",NA,0,13,"2019-11-06T09:01:40Z",1
+"erictleung","Eric Leung",NA,"Brooklyn, NY","Data science generalist. Sharing knowledge and optimizing tools for learning and growth. Open-source and open-data advocate. Community learner.",652,183,"2012-11-09T00:11:04Z",1
+"erikgahner","erikgahner",NA,NA,NA,269,42,"2013-03-26T10:03:14Z",1
+"erwinlares","Erwin Lares","UW-Madison",NA,"Linguist, data science enthusiast, dog dad, humanist, coffee fan, aikidoist and hobby potter.
+",7,62,"2021-03-09T23:07:35Z",1
+"ethanbass","Ethan Bass","University of Chicago","Chicago","I am an evolutionary ecologist studying plant interactions & their chemical mechanisms. I also do some scientific software development in R.",36,38,"2015-11-16T18:26:17Z",1
+"ewenme","ewen",NA,"London",NA,135,26,"2015-02-05T21:53:11Z",1
+"EydlinIlya","Eli Eydlin","Barcode Nanotech","Haifa ",NA,5,17,"2017-07-10T06:36:33Z",1
+"fgazzelloni","Federica Gazzelloni (she/her)","@datametricus","World","Independent External Expert (IEE) - Certified Carpentries Instructor -  IHME Collaborator | #Statistics | #Actuarial | #rstats | @rladiesrome Lead Organizer",150,125,"2020-03-04T19:09:27Z",1
+"finnoh","Finn-Ole Höner","Erasmus University Rotterdam","Rotterdam","Ph.D. Candidate Erasmus School of Economics",43,30,"2020-01-08T18:49:07Z",1
+"fmichonneau","François Michonneau","Solutions Engineer @posit-dev",NA,"Solutions Engineer @posit-dev ",307,306,"2013-09-20T16:00:50Z",1
+"format0",NA,NA,NA,NA,0,0,"2017-04-05T02:07:41Z",1
+"franziloew","Franzi Löw","https://www.localyze.de","Hamburg, Germany","Industrial Economist, PhD Candidate at HSU Hamburg (GER)
+
+Data Science for economic topics
+
+ Co-Founder/CTO of Localyze",18,17,"2017-03-29T13:17:32Z",1
+"frederikziebell","Frederik Ziebell",NA,NA,"Cyclist / Mathematician / Computational Biologist",10,25,"2017-05-02T14:48:29Z",1
+"fthielen","Frederick Thielen","Erasmus University Rotterdam","Rotterdam","Assistant professor Health Technology Assessment",16,35,"2016-02-03T13:58:18Z",1
+"GABurns",NA,"Trinity AgTech","Belfast, Northern Ireland",NA,4,23,"2016-11-07T21:22:06Z",1
+"GadesTraining",NA,NA,NA,NA,0,1,"2018-07-18T07:54:10Z",1
+"galalH","galalH",NA,NA,NA,14,34,"2014-12-07T09:56:37Z",1
+"gavinsimpson","Gavin Simpson","Aarhus University","Denmark",NA,574,242,"2010-12-08T13:38:49Z",1
+"gdevailly","Guillaume Devailly","INRAE","Toulouse","Researcher at INRAE, Toulouse, France",25,21,"2013-02-16T12:16:12Z",1
+"goknurginer","Göknur Giner","The Walter and Eliza Hall Institute of Medical Research","Melbourne",NA,34,19,"2014-07-24T04:11:51Z",1
+"gregrs-uk","Greg",NA,"UK","Music teacher and amateur programmer with an interest in OpenStreetMap",8,45,"2014-04-20T15:38:30Z",1
+"ha-pu",NA,"University of Innsbruck",NA,NA,2,15,"2020-06-03T07:32:36Z",1
+"haighd","Dan Haight",NA,"Roxbury, New Jersey","Senior technical leader building data platforms & AI-powered developer tools. 3D printing enthusiast.",5,14,"2017-02-27T02:09:14Z",1
+"hoxo-m","Koji Makiyama","HOXO-M Inc.","Tokyo, Japan","Japanese translator of R for Everyone, Feature Engineering for Machine Learning, and Models of the Mind.",133,33,"2014-05-04T08:43:54Z",1
+"huizezhang-sherry","Sherry Zhang","University of Texas at Austin","Austin, Texas, USA","Postdoc @ UT Austin | Statistics and Data Science
+",67,48,"2018-02-24T03:00:19Z",1
+"irismeredith","Iris Meredith",NA,"Hamilton, New Zealand","Data scientist, engineer, applied mathematician and writer based in Hamilton, New Zealand. A journeywoman in the wide world of technology and mathematics.",0,6,"2021-02-19T02:26:01Z",1
+"irudnyts","Iegor Rudnytskyi",NA,NA,NA,66,34,"2014-11-08T12:54:10Z",1
+"jadeynryan","Jadey Ryan","Washington State Department of Agriculture",NA,"Data Scientist at @WA-Department-of-Agriculture 🌱 ",152,28,"2021-11-25T03:02:01Z",1
+"JamesHWade","James Wade","Dow","Midland, MI","Analytical chemist in industry working on materials characterization and data science. Interested in #rstats, modeling, & sustainability. Owner of many pets.",158,113,"2014-01-03T21:46:47Z",1
+"jasdumas","Jasmine Daly","Daly Analytics","Connecticut","Principal Consultant & Founder of Daly Analytics 🌅
+#rstats
+
+",170,82,"2014-02-14T21:01:06Z",1
+"JavOrraca","Javier Orraca-Deatcu","Centene Corporation","Orange County, CA","SoCal-based data scientist, MLE, and open-source community organizer",52,52,"2018-07-06T05:41:06Z",1
+"jaytimm","Jason Timm",NA,"New Mexico",NA,74,26,"2017-01-10T23:40:53Z",1
+"jcasman","Jesse Casman","Oppkey","San Francisco, CA","Technical Marketing for Dev Platforms | Community-Led Growth for FastAPI/Python, PaaS, and Cloud Startups, Stanford University alumnus",45,115,"2011-09-24T01:58:37Z",1
+"jeanpaulrsoucy","Jean-Paul R. Soucy",NA,"Montreal, Canada",NA,54,28,"2017-08-19T22:51:26Z",1
+"jeanpauphilet","Jean Pauphilet",NA,NA,NA,39,12,"2014-11-05T12:20:05Z",1
+"jeffreyenos","Jeffrey Enos",NA,NA,NA,14,10,"2011-06-07T19:31:01Z",1
+"jimbono4-cpu",NA,NA,NA,NA,0,2,"2026-02-06T23:23:23Z",1
+"jimhester","Jim Hester","@netflix","Cleveland, Ohio","Software Engineer @Netflix, previously @rstudio on @tidyverse team.",1674,465,"2010-02-17T13:30:36Z",1
+"jmablog","James",NA,NA,NA,20,23,"2019-01-13T13:13:42Z",1
+"jmgirard","Jeffrey Girard","University of Kansas","Lawrence, KS, USA","Associate Professor of Psychology",93,95,"2014-03-02T04:32:41Z",1
+"jminnier","Jessica Minnier","Oregon Health & Science University","Portland, OR","Associate Professor of Biostatistics, OHSU",77,73,"2013-02-25T17:58:13Z",1
+"jolars","Johan Larsson","University of Copenhagen","Lund, Sweden","Postdoc in statistics at the Department of Mathematical Sciences, University of Copenhagen",128,248,"2015-06-28T15:14:51Z",1
+"JoseAntonioOrtega",NA,NA,NA,NA,1,3,"2016-01-19T19:20:31Z",1
+"JoseEchave","Jose Maria Echave Sanz","@woltapp","Helsinki","Data Analyst, in 2014 I jumped from  excel to R universe. Always curious. Food enthusiast",5,17,"2019-02-22T12:19:45Z",1
+"joshpersi","Josh Persi","Canadian Food Inspection Agency","Canada","Hello 👋 I'm a data scientist with the Canadian Food Inspection Agency where I leverage government data and open source tools to model plant health risks",5,7,"2018-04-22T18:50:10Z",1
+"joshwlivingston","Josh Livingston",NA,"Boulder, CO","Data scientist working on full stack data science, R packages, and other fun",1,27,"2018-04-03T21:20:50Z",1
+"jshannon75","Jerry Shannon",NA,NA,NA,33,67,"2015-08-18T11:55:20Z",1
+"JustSplash8501","Reese Wilson",NA,NA,"Machine learning and bioinformatics specialist",1,11,"2023-11-17T14:12:15Z",1
+"kalimu","Kamil Wais","7N / pharma","Rzeszów","Data Scientist and R & Shiny Developer",33,28,"2012-10-09T18:32:57Z",1
+"kbroman","Karl Broman","University of Wisconsin-Madison","Madison, Wisconsin, USA","Professor in Dept of Biostatistics & Medical Informatics at UW–Madison. Applied statistician working on statistical genomics.
+",1481,444,"2009-02-12T16:17:13Z",1
+"kestrel99","Justin Wilkins","Occams","Germany",NA,34,24,"2014-11-05T09:45:21Z",1
+"kikoso","Enrique López-Mañas",NA,"Munich, Germany","I learn, and then do things with what I have learnt.",0,118,"2011-07-08T14:53:54Z",1
+"kollerma","Manuel Koller",NA,NA,NA,11,17,"2010-11-19T15:47:15Z",1
+"kpiwonski","Chris Piwonski",NA,NA,NA,1,4,"2026-01-07T00:35:13Z",1
+"kylieainslie","Kylie Ainslie","University of Melbourne","Melbourne, Australia","Modelling for Policy Lead at the Peter Doherty Institute for Infection and Immunity and The University of Melbourne",34,19,"2014-11-17T17:30:01Z",1
+"laderast","Ted Laderas","Fred Hutch Data Science Lab @fhdsl ","Portland, OR","Director of Training/Community at Fred Hutch. Collaborative Informaticist. Plays well with others.",299,186,"2013-01-19T16:48:38Z",1
+"lddurbin","Lee Durbin","Auckland Council","Auckland, New Zealand","Cymro in Aotearoa. Reader. R enthusiast and open source evangelist. Works in local government.",11,19,"2012-01-31T00:40:11Z",1
+"ledell","Erin LeDell","@dbnlAI","Oakland, California, USA","Chief Scientist at Distributional, Inc.",1002,57,"2013-04-05T23:44:12Z",1
+"leeper","Thomas J. Leeper",NA,"Minneapolis, MN","Behavioral scientist and R hacker",1008,153,"2013-02-07T21:07:00Z",1
+"lilyclements",NA,"IDEMS International",NA,NA,11,35,"2016-08-22T18:21:55Z",1
+"luansheng","Sheng Luan","YSFRI","Qingdao city, Shandong province, China","Selective breeding for shrimp and fish.",29,53,"2014-05-06T06:39:40Z",1
+"MaelTheuliere","Maël THEULIERE","Insee","Nantes","Administrateur Insee - Adjoint au chef du Service National de Développement Informatique de Nantes",35,27,"2012-08-08T13:23:40Z",1
+"marcboschmatas","Marc Bosch",NA,NA,"Policy analyst, open data, open software, open knowledge.",28,20,"2020-04-25T17:23:29Z",1
+"MarcinKosinski","Marcin",NA,NA,NA,0,32,"2014-02-24T16:44:59Z",1
+"marcusvolz","Marcus Volz",NA,"Melbourne","Data Visualization | Math Art | Computational Art",256,6,"2015-04-20T00:56:54Z",1
+"mariabnd","Maria",NA,NA,"Public health researcher. Interested in environment, infectious diseases, public health emergencies, and disasters",71,54,"2017-11-18T16:56:58Z",1
+"martinezc1","Christian Martinez",NA,NA,"Building open-source tools, reproducible research, and better ways to teach with data | Founder, NYC Open Data Lab",14,17,"2025-05-24T16:17:26Z",1
+"mattle24","Matt Lehman",NA,NA,"Data scientist working in progressive politics",0,19,"2014-12-01T00:52:30Z",1
+"mattwarkentin","Matt Warkentin","University of Calgary","Calgary, Alberta, Canada","Postdoctoral Fellow in Computational Oncology",32,72,"2017-04-20T17:54:19Z",1
+"mbanand","M. B. Anand",NA,NA,NA,1,7,"2019-02-15T14:41:58Z",1
+"mdogucu","Mine Dogucu",NA,NA,"Senior Lecturer on Statistics at Harvard University",187,53,"2016-10-25T02:35:52Z",1
+"MechantRouquin","Jean-François Rey",NA,NA,NA,3,2,"2020-08-11T08:50:17Z",1
+"mhanf","Matthieu Hanf",NA,"Paris, France",NA,3,9,"2021-09-20T14:52:17Z",1
+"michaelquinn32","Michael Quinn",NA,"Los Angeles, CA",NA,58,53,"2013-02-04T17:47:25Z",1
+"MikeJaredS",NA,NA,NA,NA,0,4,"2018-01-28T12:58:58Z",1
+"MikeJohnPage",NA,"@cynkra","Switzerland",NA,69,55,"2018-04-05T16:49:51Z",1
+"mitchelloharawild","Mitchell O'Hara-Wild","Nectric","Australia",NA,513,133,"2015-12-03T01:48:30Z",1
+"Mkranj",NA,NA,NA,NA,3,31,"2022-08-15T17:02:28Z",1
+"mlechon","Miguel Lechón","@dull-systems",NA,NA,0,2,"2024-07-30T08:54:40Z",1
+"monty-se","Montasser Ghachem",NA,"Sweden","Researcher in Economics, and Finance, enthusiast for statistics, programming, and writing. Based in Sweden.",6,9,"2018-03-31T20:51:31Z",1
+"morrisLuke","Luke S. Morris",NA,"Los Angeles","Went from journalism to hospital data science. R | College Basketball",25,13,"2015-05-16T21:11:36Z",1
+"mthulin","Måns Thulin",NA,"Uppsala, Sweden",NA,28,25,"2018-01-23T14:12:30Z",1
+"nacnudus","Duncan Garmonsway","Government Digital Service","London",NA,121,124,"2013-02-10T02:08:51Z",1
+"natekratzer","Nate Kratzer",NA,"Louisville, KY",NA,17,36,"2016-02-10T21:50:39Z",1
+"nbafrank","Francesco Vallania","Stanford University","San Francisco, CA",NA,27,6,"2014-03-23T19:47:58Z",1
+"nicholasjclark","Nicholas Clark",NA,"Brisbane, Queensland, Australia","Ecologist and quantitative geneticist, interested in multivariate statistics, genetic risk prediction, forecasting, and Bayesian decision theory",125,42,"2018-01-08T01:25:37Z",1
+"nielsoledam","Niels Ole Dam","Things in Flow","Denmark","CEO and owner of Things in Flow – a danish consultancy focusing on data analysis, productivity and helping teams and individuals to get things done in flow.",2,13,"2014-02-14T15:11:22Z",1
+"nifdy","Nifdy",NA,NA,NA,3,5,"2019-04-30T11:16:37Z",1
+"nvietto","Nicholas Vietto",NA,NA,NA,18,20,"2020-11-12T16:40:56Z",1
+"ocstringham","Oliver C. Stringham","Rutgers, The State University of New Jersey","New Brunswick, NJ","Research Scientist at Rutgers Department of Ecology, Evolution, and Natural Resources. Applied ecology, wildlife conservation, and invasion biology.",11,30,"2015-05-27T16:08:46Z",1
+"olifog","Oliver Fogelin",NA,NA,NA,50,58,"2015-04-02T11:35:01Z",1
+"PeerChristensen","Peer Christensen","Bunker Holding","Aarhus , Denmark","Data Science & AI Lead",24,64,"2014-04-09T07:53:30Z",1
+"PeteHaitch","Peter Hickey",NA,NA,NA,103,78,"2011-09-14T09:13:06Z",1
+"Polymerase3","Mateusz Franciszek Kolek","Medical University of Vienna","Vienna","Research software engineer in biostats/computational immunology (MD/PhD @ MedUni Vienna)",0,16,"2021-02-02T09:53:27Z",1
+"PowellWheeler","Powell Wheeler",NA,"Southwestern North Carolina","Fisheries Biologist ",4,4,"2018-10-09T17:06:47Z",1
+"R-icntay","Eric","@Urban-Analytics",NA,"Gold Microsoft Learn Student Ambassador",15,61,"2020-04-17T09:53:23Z",1
+"r-suzuki","Ryota Suzuki","Ef-prime, Inc.","Tokyo",NA,8,5,"2014-10-09T07:30:41Z",1
+"rajshah4","Rajiv Shah","@openhands.dev","Illinois","ai researcher & professor 
+Asks the simple questions and likes shiny new tools.",385,110,"2014-02-27T18:18:39Z",1
+"rasmusab","Rasmus Bååth","Normative.io; Lund University","Lund, Sweden","Engineering manager at Normative.io. Did a PHD in Cognitive Science at Lund University. Python is OK, but R is where my  
+❤️ belongs.",421,41,"2011-08-26T09:03:44Z",1
+"rayms",NA,NA,NA,NA,9,8,"2014-07-15T20:02:15Z",1
+"remlapmot","Tom Palmer",NA,NA,"Averaging statistician ... ",111,204,"2013-03-05T15:29:17Z",1
+"rexarski","Ruì",NA,"VA",NA,61,37,"2013-04-16T15:32:38Z",1
+"rfsaldanha","Raphael Saldanha","Fiocruz","Rio de Janeiro","Geographer, Master's in Public Health, PhD in Health Information and Communication.
+
+Postdoc at @INRIA.",318,193,"2013-11-22T12:14:39Z",1
+"rladiesgaborone","R-Ladies Gaborone",NA,"Gaborone, Botswana","R-Ladies Gaborone is a chapter of R-Ladies Global that promotes gender diversity in the R community to improve R skills for Data viz, analysis etc..",1,1,"2023-08-21T09:24:39Z",1
+"RLesur","Romain Lesur","@InseeFr","Nantes & Paris, France","Head of Data Science @InseeFr @InseeFrLab ",390,98,"2016-05-03T22:36:59Z",1
+"rmflight","Robert M Flight","University of Kentucky","Lexington, KY","Bioinformatics Analyst | R Programmer | Likes Pretty Plots",107,189,"2012-03-07T01:40:19Z",1
+"rnburn","Ryan Burn",NA,"San Francisco, CA",NA,59,84,"2012-07-04T22:28:11Z",1
+"RobertMyles","Robert Myles McDonnell",NA,"Ireland","Data Science guy",142,11,"2014-04-07T16:40:08Z",1
+"RohanAlexander","Rohan Alexander",NA,"Toronto, Canada","I spend too much money on books and too much time trying new R packages.
+Current: UofT. Past: Petit Poll; Grosvenor; GoCampaign/GO1; CIE; RBA.",207,120,"2013-10-11T07:50:36Z",1
+"RoryLawless","Rory Lawless",NA,"Washington, DC",NA,8,9,"2016-11-30T01:33:15Z",1
+"rpahl","Roman Pahl","@gsk-tech","Germany",NA,12,11,"2015-03-10T10:25:21Z",1
+"rrrlw","Raoul",NA,"Cleveland, Ohio","Medicine, mathematics, programming.",38,44,"2014-03-04T03:20:56Z",1
+"sbudai","Sandor Budai",NA,"Vác, Hungary","Data Miner & Analyst, as well as Avid Learner",8,19,"2016-01-04T10:32:20Z",1
+"seaCatKim","Catherine Kim","Queensland University of Technology","Meanjin/Brisbane","Postdoctoral Researher Queensland University of Technology. Reef Restoration and Adaptation Program (Decision Science & Rubble Teams). Brisbane Geospatial",8,51,"2016-12-22T05:48:52Z",1
+"Selbosh","David Selby","DFKI","Kaiserslautern, Germany","Senior researcher in health data science at German Artificial Intelligence Research Centre (DFKI). Honorary researcher at TCD, UCL and University of Manchester.",100,52,"2014-06-10T14:58:10Z",1
+"serkor1","Serkan Korkmaz","VIVE - The Danish Center for Social Science Research","Denmark","Ph.D.-student at the University of Copenhagen.",38,33,"2021-01-14T20:57:50Z",1
+"SGS2000","Santiago García Sánchez",NA,NA,NA,5,11,"2020-08-27T12:17:41Z",1
+"sheitin",NA,"The MITRE Corporation",NA,NA,0,11,"2015-11-07T13:41:59Z",1
+"ShiyuC","Shiyu Chen","Atorus Research",NA,NA,2,2,"2018-05-19T19:10:24Z",1
+"simon-smart88","Simon Smart","University of Birmingham","Cambridge",NA,8,29,"2023-06-20T07:21:59Z",1
+"smach","Sharon Machlis",NA,NA,"Former tech journalist, now happily retired (still occasionally freelance). A bit R-obsessed. Author of Practical R for Mass Communication & Journalism.",185,135,"2013-01-27T01:28:45Z",1
+"smorbieu","Stanislas Morbieu","@kernix","Paris",NA,4,4,"2015-03-20T10:52:10Z",1
+"solarchemist","Taha Ahmed",NA,"Uppsala, Sweden",NA,16,50,"2011-08-14T17:23:07Z",1
+"Statistcs","Statistics in R",NA,NA,"Applied statistics enthusiast",0,4,"2025-07-05T03:34:22Z",1
+"stragu","Stéphane Guillou","The University of Queensland","Meanjin, Australia","Open Science advocate. Open Research Software trainer + research support. Open Source Quality Assurance.",61,111,"2012-05-17T00:00:58Z",1
+"talegari","Srikanth K S","Uber","Bengaluru","Explorations in causality, Interpretable Machine Learning, Statistics, geospatial analysis",151,53,"2014-12-02T03:44:41Z",1
+"tanho63","Tan Ho","@zelus-analytics","Ottawa, ON","list(""eng lead @zelus-analytics soccer"", ""@nflverse"", ""@ffverse"", ""@dynastyprocess"", ""@r4ds"", ""@dslc-io"", ""pumpkin carving"")",252,68,"2018-04-04T19:02:10Z",1
+"taylor-arnold","Taylor Arnold","Distant Viewing Lab","Paris, France","Professor, Data Science & Statistics Faculty in Linguistics and Cognitive Sci. Director, @distant-viewing ",338,14,"2013-10-23T01:38:42Z",1
+"tenmeh","Tanmay Chanda",NA,NA,NA,0,14,"2021-04-01T06:36:54Z",1
+"thibautjombart","Thibaut Jombart","Imperial College London","France","Senior Lecturer at Imperial College London. Consultant in outbreak analytics. R geek. Muay Thai enthusiast. Grindcore vocalist.",258,43,"2015-01-29T12:12:28Z",1
+"thirdwing","Qiang Kou (KK)","@nyquistdata ",NA,"R/C++ developer",394,47,"2012-03-17T12:21:34Z",1
+"thoughtfulbloke","David Hood",NA,NA,NA,70,104,"2014-01-21T02:24:15Z",1
+"tidyecology","Tidy Ecology",NA,NA,NA,0,1,"2026-07-17T17:39:26Z",1
+"TimTaylor","Tim Taylor",NA,NA,NA,0,124,"2018-09-22T15:09:51Z",1
+"tlhenvironment",NA,NA,NA,NA,0,7,"2019-07-29T15:08:47Z",1
+"TypeThePipe","TypeThePipe",NA,NA,NA,0,5,"2019-07-18T06:52:46Z",1
+"warlicks","Sean Warlick","The Boeing Company","Seattle, WA",NA,17,23,"2014-10-23T22:17:56Z",1
+"wjakethompson","Jake Thompson","@atlas-aai ","Lawrence, KS","Assistant Director of Psychometrics @atlas-aai.",57,85,"2014-03-17T22:19:42Z",1
+"wkumler","William Kumler",NA,"University of Washington, Seattle, WA","Data science manager and recent chemical oceanography Ph.D. graduate at the University of Washington",20,30,"2018-09-09T17:28:14Z",1
+"wvictor14","Victor Yuan","Sonoma Biotherapeutics","Vancouver BC","Data Scientist, PhD 
+
+Bioinformatics, biotech, pharma, drug development
+",20,79,"2016-09-05T20:12:43Z",1
+"XynthiaKavelaars","Xynthia Kavelaars","Open Universiteit","Heerlen, The Netherlands","Doing research on research: developing accessible research methodology. ",0,10,"2018-04-30T09:26:13Z",1
+"yjunechoe","June Choe","Amazon","NYC","Computational linguist at Amazon. Linguistics PhD. Open source, data science, graphics.",102,86,"2019-07-12T16:19:07Z",1
+"Yousa-Mirage","天然純真","School of Social Sciences, Tsinghua University","Beijing, China","岁岁年年 叠于我身 皆循时光 逝而不返",48,25,"2022-11-03T15:51:56Z",1
+"z3tt","Cédric Scherer","Independent Contractor","Berlin","Consultant, developer, and instructor for data workflows, analysis, visualization & communication.",2078,52,"2014-05-08T12:55:38Z",1
