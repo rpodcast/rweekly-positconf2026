@@ -1,0 +1,33 @@
+name: Render and Publish
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+      runs-on: ubuntu-latest
+      permissions:
+        contents: write
+      steps:
+        - name: Check out repository
+          uses: actions/checkout@v4
+
+        - name: Install Nix
+          uses: DeterminateSystems/nix-installer-action@main
+
+        - name: Setup rstats-on-nix cache
+          uses: cachix/cachix-action@v15
+          with:
+            name: rstats-on-nix
+  
+        - name: Set up environment
+          run: nix-build
+
+        - name: Publish to GitHub Pages (and render)
+          uses: rstats-on-nix/quarto-nix-actions/publish@main
+          with:
+            render: true
+            target: gh-pages
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
