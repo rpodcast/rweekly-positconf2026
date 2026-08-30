@@ -1,5 +1,7 @@
 project:
   type: website
+  render:
+    - "*.qmd"
   
 website: 
   site-url: "https://rpodcast.github.io/rweekly-positconf2026"
