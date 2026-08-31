@@ -11,8 +11,8 @@ format:
 
 ## {#titleslide data-menu-title="Title Slide"}
 
-<h2>R Weekly</h2>
-<h4>Change subtitle here</h4>
+<h2>For the community, by the community</h2>
+<h4>The 10-year journey of R Weekly powered by open-source</h4>
 <br>
 
 :::: {.columns}
