@@ -1,0 +1,199 @@
+/*-- scss:defaults --*/
+
+// Base off the dark theme so the runtime CSS custom properties (--r-*),
+// syntax highlighting, and menu chrome all start from a dark palette.
+$theme: "dark" !default;
+
+// R Weekly - inspired palette. The main background is a deep navy that
+// harmonises with the constellation background image on the title slide.
+$rweekly-navy:      #0F1D3D;   // primary slide background (matches bg_top)
+$rweekly-navy-deep: #0A1530;   // slightly darker; used for accents
+$rweekly-teal:      #2CC5B0;   // primary accent (from logo stars)
+$rweekly-mint:      #3EDB9B;   // secondary accent
+$rweekly-yellow:    #F2C438;   // heading / callout accent
+$rweekly-orange:    #F09030;   // link hover
+$rweekly-magenta:   #B540B0;   // rarely used accent
+$rweekly-text:      #F5F7FB;   // near-white for body copy
+$rweekly-muted:     #B8C2D9;   // secondary text
+
+// Standard RevealJS-facing variables (these drive --r-* runtime tokens)
+$body-bg:         $rweekly-navy !default;
+$body-color:      $rweekly-text !default;
+$backgroundColor: $body-bg !default;
+$mainColor:       $body-color !default;
+
+// Headings + links
+$presentation-heading-color:      $rweekly-yellow !default;
+$presentation-heading-font-weight: 700 !default;
+$link-color:       $rweekly-teal !default;
+$link-color-hover: $rweekly-orange !default;
+
+// Selection highlight
+$selection-background-color: rgba($rweekly-teal, 0.35) !default;
+$selection-color:            $rweekly-text !default;
+
+// Slightly softer body font size for the darker background
+$presentation-font-size-root: 34px !default;
+
+/*-- scss:rules --*/
+
+// --------------------------------------------------------------------------
+// Global slide readability tweaks
+// --------------------------------------------------------------------------
+.reveal {
+  color: $rweekly-text;
+
+  // Ensure headings pick up the accent colour reliably (some themes set it
+  // per-level; be explicit).
+  h1, h2, h3, h4, h5, h6 {
+    color: $rweekly-yellow;
+    text-shadow: none;
+    letter-spacing: -0.01em;
+  }
+
+  // Body-copy hierarchy
+  p, li {
+    color: $rweekly-text;
+  }
+
+  // Muted secondary text (used on the title slide's affiliation lines)
+  .muted { color: $rweekly-muted; }
+
+  // Links: teal by default, orange on hover, always underlined subtly for
+  // accessibility on the dark background.
+  a, a:visited {
+    color: $rweekly-teal;
+    text-decoration: none;
+    border-bottom: 1px dotted rgba($rweekly-teal, 0.6);
+  }
+  a:hover {
+    color: $rweekly-orange;
+    border-bottom-color: rgba($rweekly-orange, 0.8);
+  }
+
+  // Inline code + code blocks: keep bright but not garish
+  code {
+    color: $rweekly-mint;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 0.05em 0.35em;
+    border-radius: 4px;
+  }
+  pre code {
+    background-color: rgba(0, 0, 0, 0.35);
+    color: $rweekly-text;
+  }
+
+  // Blockquotes / callouts
+  blockquote {
+    border-left: 4px solid $rweekly-teal;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.5em 0.8em;
+    color: $rweekly-muted;
+  }
+
+  // Footer + slide numbers
+  .footer,
+  .slide-number,
+  .slide-number a {
+    color: $rweekly-muted !important;
+  }
+}
+
+// --------------------------------------------------------------------------
+// Title slide: place text over the sparser left half of the constellation
+// background so the R Weekly logo (right side of the image) is never
+// covered. The background image itself is set inline on the section via
+// `background-image=` in index.qmd; here we only style the overlay content.
+// --------------------------------------------------------------------------
+#titleslide {
+  // Anchor content to the upper-left region, away from the logo
+  text-align: left;
+
+  // A subtle darkening scrim over the left side only, so text sits on a
+  // slightly quieter portion of the constellation without covering the logo.
+  // linear-gradient goes on top of the background image via background-blend
+  // by using the section's ::before pseudo-element:
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to right,
+      rgba(10, 21, 48, 0.72) 0%,
+      rgba(10, 21, 48, 0.55) 45%,
+      rgba(10, 21, 48, 0.10) 70%,
+      rgba(10, 21, 48, 0.00) 82%
+    );
+    pointer-events: none;
+    z-index: 0;
+  }
+  // Ensure our content stacks above the scrim
+  > * { position: relative; z-index: 1; }
+
+  h1, h2, h3, h4 {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  // Main title: bright and legible, with a soft dark shadow to guarantee
+  // contrast even where a colourful star sits behind a letter.
+  // Sized to fit "For the community, by the community" on a single line
+  // within the widened text area (logo is smaller + pushed further right
+  // in the background image).
+  h2 {
+    color: $rweekly-text;
+    font-size: 1.8em;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    max-width: 72%;
+    white-space: nowrap;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.65);
+  }
+
+  // Subtitle line(s)
+  h4 {
+    color: $rweekly-teal;
+    font-size: 1.0em;
+    font-weight: 500;
+    max-width: 72%;
+    white-space: nowrap;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.55);
+    margin-bottom: 0.35em;
+
+    code {
+      color: $rweekly-yellow;
+      background-color: rgba(0, 0, 0, 0.35);
+    }
+  }
+
+  // The last subtitle line (containing `posit::conf(2026)`) is immediately
+  // followed by the presenter block. Push the presenter block down so it
+  // doesn't crowd the subtitle and doesn't leave dead space at the bottom
+  // of the slide.
+  h4:last-of-type {
+    margin-bottom: 3.5em;
+  }
+
+  // Presenter block (name, affiliation, socials) — pull it up into the
+  // left column and keep it comfortably narrow.
+  .columns {
+    max-width: 72%;
+    margin-top: 1.0em;
+  }
+  p {
+    color: $rweekly-text;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.55);
+    margin: 0.15em 0;
+  }
+}
+
+// --------------------------------------------------------------------------
+// Closing / Thank-you slide small polish so the two-column footer sits
+// tidily on the dark background.
+// --------------------------------------------------------------------------
+.reveal section h2 + p strong,
+.reveal section p strong {
+  color: $rweekly-yellow;
+}

@@ -12,9 +12,11 @@ rix(
     "jsonlite",
     "dplyr",
     "tidyr",
-    "readr"
+    "readr",
+    "magick",
+    "rsvg"
   ),
-  system_pkgs = c("quarto"),
+  system_pkgs = c("quarto", "imagemagick"),
   ide = "none",
   project_path = ".",
   overwrite = TRUE,

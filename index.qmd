@@ -2,22 +2,24 @@
 format:
   revealjs:
     auto-play-media: true
+    width: 1280
+    height: 720
     link-external-newwindow: true
     menu: true
     code-line-numbers: false
-    theme: [default]
+    echo: false
+    pagetitle: Journey of R Weekly
+    theme: [dark, styles.scss]
     footer: "[rpodcast.github.io/rweekly-positconf2026](https://rpodcast.github.io/rweekly-positconf2026/)"
 ---
 
-## {#titleslide data-menu-title="Title Slide"}
+## {#titleslide data-menu-title="Title Slide" background-image="assets/img/title_slide_background.png" background-size="cover" background-position="center"}
 
 <h2>For the community, by the community</h2>
+
 <h4>The 10-year journey of R Weekly powered by open-source</h4>
-<br>
 
-:::: {.columns}
-
-::: {.column width="70%"}
+<h4>`posit::conf(2026)`</h4>
 
 Eric Nantz
 
@@ -25,21 +27,7 @@ Statistician / Developer / Podcaster
 
 Eli Lilly & Company
 
-{{< fa brands mastodon size=xl >}} [\@rpodcast](https://podcastindex.org/@rpodcast)
-
-{{< fa brands bluesky size=xl >}} [\@rpodcast](https://bsky.app/profile/rpodcast.bsky.social)
-
-{{< fa brands linkedin size=xl >}} [eric-nantz](https://www.linkedin.com/in/eric-nantz-6621617/)
-
-:::
-
-::: {.column width="30%"}
-
-{{< qrcode https://rpodcast.github.io/shinystate-positconf2025 qr1 width=200 height=200 >}}
-
-:::
-
-::::
+[{{< fa brands mastodon size=lg >}} [\@rpodcast](https://podcastindex.org/@rpodcast) &nbsp; {{< fa brands bluesky size=lg >}} [\@rpodcast](https://bsky.app/profile/rpodcast.bsky.social) &nbsp; {{< fa brands linkedin size=lg >}} [eric-nantz](https://www.linkedin.com/in/eric-nantz-6621617/)]{style="font-size: 0.6em"}
 
 ## Second Slide
 
