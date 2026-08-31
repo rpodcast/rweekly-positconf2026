@@ -12,7 +12,14 @@
 #  > "tidyr",
 #  > "readr",
 #  > "magick",
-#  > "rsvg"),
+#  > "rsvg",
+#  > "sf",
+#  > "rnaturalearth",
+#  > "rnaturalearthdata",
+#  > "htmlwidgets",
+#  > "plotly",
+#  > "threejs",
+#  > "ggiraph"),
 #  > system_pkgs = c("quarto",
 #  > "imagemagick"),
 #  > ide = "none",
@@ -32,16 +39,23 @@ let
   rpkgs = builtins.attrValues {
     inherit (pkgs.rPackages) 
       dplyr
+      ggiraph
       ggplot2
       gh
+      htmlwidgets
       httr2
       jsonlite
       knitr
       magick
+      plotly
       purrr
       quarto
       readr
+      rnaturalearth
+      rnaturalearthdata
       rsvg
+      sf
+      threejs
       tidyr;
   };
       

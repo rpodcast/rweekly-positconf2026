@@ -190,6 +190,15 @@ $presentation-font-size-root: 34px !default;
 }
 
 // --------------------------------------------------------------------------
+// Interactive-globe slide: the globe is a full-slide iframe background, so
+// hide the slide's h2 title text - the overlay caption already communicates
+// the message and the h2 was showing through behind it.
+// --------------------------------------------------------------------------
+.reveal .globe-interactive-slide > h2 {
+  display: none;
+}
+
+// --------------------------------------------------------------------------
 // Closing / Thank-you slide small polish so the two-column footer sits
 // tidily on the dark background.
 // --------------------------------------------------------------------------

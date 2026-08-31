@@ -14,7 +14,9 @@ rix(
     "tidyr",
     "readr",
     "magick",
-    "rsvg"
+    "sf",
+    "rnaturalearth",
+    "rnaturalearthdata"
   ),
   system_pkgs = c("quarto", "imagemagick"),
   ide = "none",

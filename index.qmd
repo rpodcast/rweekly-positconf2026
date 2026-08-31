@@ -11,6 +11,8 @@ format:
     pagetitle: Journey of R Weekly
     theme: [dark, styles.scss]
     footer: "[rpodcast.github.io/rweekly-positconf2026](https://rpodcast.github.io/rweekly-positconf2026/)"
+resources:
+  - "assets/img/contributor_globe.html"
 ---
 
 ## {#titleslide data-menu-title="Title Slide" background-image="assets/img/title_slide_background.png" background-size="cover" background-position="center"}
@@ -29,9 +31,22 @@ Eli Lilly & Company
 
 [{{< fa brands mastodon size=lg >}} [\@rpodcast](https://podcastindex.org/@rpodcast) &nbsp; {{< fa brands bluesky size=lg >}} [\@rpodcast](https://bsky.app/profile/rpodcast.bsky.social) &nbsp; {{< fa brands linkedin size=lg >}} [eric-nantz](https://www.linkedin.com/in/eric-nantz-6621617/)]{style="font-size: 0.6em"}
 
-## Second Slide
+## {#globe-static data-menu-title="Contributor globe"}
 
-I will change this.
+::: {.r-stretch}
+![](assets/img/contributor_globe.png){fig-alt="Two orthographic globes side by side. The left globe shows the Americas, Europe, and Africa with contributor markers over 26 countries; the right shows Asia and Oceania with markers over 8 countries. USA leads with 55 contributors."}
+:::
+
+::: {.notes}
+R Weekly contributors span **34 countries** across every populated continent. Bubble size and colour scale with the number of unique contributors per country.
+:::
+
+## Spin the globe {visibility="hidden" #globe-interactive .globe-interactive-slide data-menu-title="3D contributor globe" background-iframe="assets/img/contributor_globe.html" background-interactive="true"}
+
+::: {.absolute top="0" left="0" style="background: rgba(10,21,48,0.75); padding: 0.4em 0.8em; border-radius: 6px; font-size: 0.55em; max-width: 22em;"}
+**406 contributors, 34 countries.**  
+Bar height and colour = contributors per country. Drag to spin.
+:::
 
 ## Thank You!
 
