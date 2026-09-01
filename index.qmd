@@ -15,6 +15,14 @@ resources:
   - "assets/img/contributor_globe.html"
 ---
 
+```{r}
+#| label: setup
+#| include: false
+
+# load supporting scripts
+source("scripts/rweekly_theme.R")
+```
+
 ## {#titleslide data-menu-title="Title Slide" background-image="assets/img/title_slide_background.png" background-size="cover" background-position="center"}
 
 <h2>For the community, by the community</h2>
@@ -31,6 +39,200 @@ Eli Lilly & Company
 
 [{{< fa brands mastodon size=lg >}} [\@rpodcast](https://podcastindex.org/@rpodcast) &nbsp; {{< fa brands bluesky size=lg >}} [\@rpodcast](https://bsky.app/profile/rpodcast.bsky.social) &nbsp; {{< fa brands linkedin size=lg >}} [eric-nantz](https://www.linkedin.com/in/eric-nantz-6621617/)]{style="font-size: 0.6em"}
 
+---
+
+::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+::: {style="text-align:center;"}
+![Revolutions Blog](assets/img/revolutions-webview-archive.png)
+:::
+
+:::
+
+::: {.column width="50%" .fragment}
+
+::: {style="text-align:center;"}
+![R-Bloggers](assets/img/rbloggers-webview-archive-final.png)
+:::
+
+:::
+
+:::
+
+---
+
+![](assets/img/why-not-both-why-not.gif)
+
+## 2016: R Weekly Arrives!
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+* Weekly collection of latest R news and resouces
+* Combination of RSS site feeds and individual resources
+* R Weekly Team composed of volunteers passionate about the R community
+* Highlights voted on by team before issue release
+* Entire project is open-source
+
+:::
+
+::: {.column width="60%"}
+
+![](assets/img/rweekly-webview.png){.absolute top=0 right=0 height="90%"}
+
+:::
+
+:::
+
+## 2020: R Weekly Highlights Podcast!
+
+::: {.columns}
+
+::: {.column width="40%"}
+
+* Conversations centered on the issue highlights
+* Community drives the content!
+* Mike Thomas answered the call for the community
+
+:::
+
+::: {.column width="60%"}
+
+```{=html}
+<div style="display: flex; align-items: center; justify-content: center; gap: 1rem;">
+  <img src="assets/img/rpodcast-hexagon.png" alt="R Podcast hexagon logo" style="width: 30%; height: auto;"/>
+  <img src="assets/img/podcast-logo.png" alt="R Weekly Highlights podcast logo" style="width: 30%; height: auto;"/>
+  <img src="assets/img/mike-thomas.jpg" alt="Mike Thomas, co-host" style="width: 30%; height: auto;"/>
+</div>
+```
+
+:::
+
+:::
+
+## Behind the Site {visibility="hidden"}
+
+* Markdown files composed with Jekyll static-site generator
+* Curator communication and polls on Slack
+* GitHub for version control and automation
+* Shiny app for Highlights poll generation
+* Quarto Dashboard for curator calendar
+
+
+## 2021: Uncertainty
+
+![](assets/img/katie-moum-5FHv5nS7yGg-unsplash.jpg){.absolute top=100 right=400 height="100%"}
+
+---
+
+::: {style="text-align:center;"}
+![R Weekly curators at rstudio::conf(2020)](assets/img/rweekly_curators_rstudioconf.jpg)
+:::
+
+---
+
+```{r}
+#| label: yearly-pr-plot
+#| fig-width: 10
+#| fig-height: 5.5
+#| fig-align: center
+#| dev.args: !expr list(bg = "transparent")
+
+library(dplyr)
+library(ggplot2)
+library(scales)
+
+cadence_yearly <- readr::read_csv("data/cadence_yearly.csv", show_col_types = FALSE) |>
+  arrange(year) |>
+  mutate(cumulative_prs = cumsum(merged_prs))
+
+ggplot(cadence_yearly, aes(x = year, y = cumulative_prs)) +
+  geom_area(fill = rweekly_colors$teal, alpha = 0.20) +
+  geom_line(color = rweekly_colors$teal, linewidth = 1.2) +
+  geom_point(color = rweekly_colors$yellow, size = 3) +
+  geom_text(
+    aes(label = comma(cumulative_prs)),
+    vjust = -1.2,
+    color = rweekly_colors$text,
+    size  = 3.6
+  ) +
+  scale_x_continuous(breaks = cadence_yearly$year) +
+  scale_y_continuous(
+    labels = comma,
+    expand = expansion(mult = c(0.02, 0.12))
+  ) +
+  labs(
+    title    = "Cumulative merged pull requests",
+    subtitle = "R Weekly project, 2016 - present",
+    x = NULL,
+    y = "Merged PRs (cumulative)",
+    caption = "source: rweekly/rweekly.org"
+  ) +
+  theme_rweekly()
+```
+
+---
+
+```{r}
+#| label: yearly-first-time-contributor-percent-plot
+#| fig-width: 10
+#| fig-height: 5.5
+#| fig-align: center
+#| dev.args: !expr list(bg = "transparent")
+
+library(dplyr)
+library(ggplot2)
+library(scales)
+
+first_time_yearly <- readr::read_csv(
+  "data/first_time_contributors_by_year.csv",
+  show_col_types = FALSE
+) |>
+  arrange(year)
+
+avg_pct <- round(mean(first_time_yearly$pct_prs_from_first_time), 1)
+
+ggplot(first_time_yearly, aes(x = year, y = pct_prs_from_first_time)) +
+  geom_hline(
+    yintercept = avg_pct,
+    linetype   = "dashed",
+    color      = rweekly_colors$muted,
+    linewidth  = 0.4
+  ) +
+  annotate(
+    "text",
+    x = min(first_time_yearly$year),
+    y = avg_pct,
+    label = paste0("mean: ", avg_pct, "%"),
+    hjust = 0, vjust = -0.5,
+    color = rweekly_colors$muted,
+    size  = 3.4
+  ) +
+  geom_col(fill = rweekly_colors$teal, width = 0.7) +
+  geom_text(
+    aes(label = paste0(pct_prs_from_first_time, "%")),
+    vjust = -0.6,
+    color = rweekly_colors$text,
+    size  = 3.6
+  ) +
+  scale_x_continuous(breaks = first_time_yearly$year) +
+  scale_y_continuous(
+    labels = label_percent(scale = 1),
+    expand = expansion(mult = c(0, 0.15))
+  ) +
+  labs(
+    title    = "Share of merged PRs from first-time contributors",
+    subtitle = "First-time = author with no prior merged PR in rweekly/rweekly.org",
+    x = NULL,
+    y = NULL,
+    caption  = "source: rweekly/rweekly.org"
+  ) +
+  theme_rweekly()
+```
+
 ## {#globe-static data-menu-title="Contributor globe"}
 
 ::: {.r-stretch}
@@ -39,13 +241,6 @@ Eli Lilly & Company
 
 ::: {.notes}
 R Weekly contributors span **34 countries** across every populated continent. Bubble size and colour scale with the number of unique contributors per country.
-:::
-
-## Spin the globe {visibility="hidden" #globe-interactive .globe-interactive-slide data-menu-title="3D contributor globe" background-iframe="assets/img/contributor_globe.html" background-interactive="true"}
-
-::: {.absolute top="0" left="0" style="background: rgba(10,21,48,0.75); padding: 0.4em 0.8em; border-radius: 6px; font-size: 0.55em; max-width: 22em;"}
-**406 contributors, 34 countries.**  
-Bar height and colour = contributors per country. Drag to spin.
 :::
 
 ## Thank You!
