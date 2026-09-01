@@ -21,6 +21,7 @@ For a decade, R Weekly has highlighted the innovations, creativity, and novel re
 * [Person standing in park](https://unsplash.com/photos/person-standing-in-front-of-trees-aebPbwAWjDs): Photo by <a href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Neel</a> on <a href="https://unsplash.com/photos/person-standing-in-front-of-trees-aebPbwAWjDs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * [Empty road to fog](https://unsplash.com/photos/empty-road-surrounded-with-trees-with-fog-5FHv5nS7yGg)  Photo by <a href="https://unsplash.com/@katiemoum?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Katie Moum</a> on <a href="https://unsplash.com/photos/empty-road-surrounded-with-trees-with-fog-5FHv5nS7yGg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * Why Not Both animated GIF: [Tenor](https://tenor.com/view/why-not-both-why-not-take-both-gif-11478682)
+* [We are open](https://unsplash.com/photos/a-yellow-sign-that-says-we-are-open-hanging-from-a-string-uROXq1PEQac) Photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tim Mossholder</a> on <a href="https://unsplash.com/photos/a-yellow-sign-that-says-we-are-open-hanging-from-a-string-uROXq1PEQac?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 ## Assorted References
 

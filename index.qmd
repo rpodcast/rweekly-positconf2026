@@ -67,25 +67,34 @@ Eli Lilly & Company
 
 ## 2016: R Weekly Arrives!
 
-::: {.columns}
+![](assets/img/rweekly-fullview.png)
 
-::: {.column width="40%"}
-
-* Weekly collection of latest R news and resouces
+::: {.notes}
+* Weekly collection of latest R news and resources
 * Combination of RSS site feeds and individual resources
 * R Weekly Team composed of volunteers passionate about the R community
 * Highlights voted on by team before issue release
 * Entire project is open-source
+:::
+
+---
+
+::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+![](assets/img/rweekly-webview.png)
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="50%" .fragment}
 
-![](assets/img/rweekly-webview.png){.absolute top=0 right=0 height="90%"}
+![](assets/img/rweekly-mdview.png)
+
+:::
 
 :::
 
-:::
 
 ## 2020: R Weekly Highlights Podcast!
 
@@ -120,6 +129,43 @@ Eli Lilly & Company
 * GitHub for version control and automation
 * Shiny app for Highlights poll generation
 * Quarto Dashboard for curator calendar
+
+---
+
+```{r}
+#| label: year-pr-plot-before-uncertainty
+#| fig-width: 10
+#| fig-height: 5.5
+#| fig-align: center
+#| dev.args: !expr list(bg = "transparent")
+
+library(dplyr)
+library(ggplot2)
+library(scales)
+
+cadence_yearly_early <- readr::read_csv("data/cadence_yearly.csv", show_col_types = FALSE) |>
+  filter(year >= 2016, year <= 2021) |>
+  arrange(year)
+
+ggplot(cadence_yearly_early, aes(x = year, y = merged_prs)) +
+  geom_col(fill = rweekly_colors$teal, width = 0.7) +
+  geom_text(
+    aes(label = comma(merged_prs)),
+    vjust = -0.6,
+    color = rweekly_colors$text,
+    size  = 3.6
+  ) +
+  scale_x_continuous(breaks = cadence_yearly_early$year) +
+  scale_y_continuous(
+    labels = comma,
+    expand = expansion(mult = c(0, 0.15))
+  ) +
+  labs(
+    x = NULL,
+    y = "Merged Pull Requests"
+  ) +
+  theme_rweekly()
+```
 
 
 ## 2021: Uncertainty
@@ -165,11 +211,8 @@ ggplot(cadence_yearly, aes(x = year, y = cumulative_prs)) +
     expand = expansion(mult = c(0.02, 0.12))
   ) +
   labs(
-    title    = "Cumulative merged pull requests",
-    subtitle = "R Weekly project, 2016 - present",
     x = NULL,
-    y = "Merged PRs (cumulative)",
-    caption = "source: rweekly/rweekly.org"
+    y = "Cumulative Merged Pull Requests"
   ) +
   theme_rweekly()
 ```
@@ -196,21 +239,21 @@ first_time_yearly <- readr::read_csv(
 avg_pct <- round(mean(first_time_yearly$pct_prs_from_first_time), 1)
 
 ggplot(first_time_yearly, aes(x = year, y = pct_prs_from_first_time)) +
-  geom_hline(
-    yintercept = avg_pct,
-    linetype   = "dashed",
-    color      = rweekly_colors$muted,
-    linewidth  = 0.4
-  ) +
-  annotate(
-    "text",
-    x = min(first_time_yearly$year),
-    y = avg_pct,
-    label = paste0("mean: ", avg_pct, "%"),
-    hjust = 0, vjust = -0.5,
-    color = rweekly_colors$muted,
-    size  = 3.4
-  ) +
+  # geom_hline(
+  #   yintercept = avg_pct,
+  #   linetype   = "dashed",
+  #   color      = rweekly_colors$muted,
+  #   linewidth  = 0.4
+  # ) +
+  # annotate(
+  #   "text",
+  #   x = min(first_time_yearly$year),
+  #   y = avg_pct,
+  #   label = paste0("mean: ", avg_pct, "%"),
+  #   hjust = 0, vjust = -0.5,
+  #   color = rweekly_colors$muted,
+  #   size  = 3.4
+  # ) +
   geom_col(fill = rweekly_colors$teal, width = 0.7) +
   geom_text(
     aes(label = paste0(pct_prs_from_first_time, "%")),
@@ -225,10 +268,8 @@ ggplot(first_time_yearly, aes(x = year, y = pct_prs_from_first_time)) +
   ) +
   labs(
     title    = "Share of merged PRs from first-time contributors",
-    subtitle = "First-time = author with no prior merged PR in rweekly/rweekly.org",
     x = NULL,
-    y = NULL,
-    caption  = "source: rweekly/rweekly.org"
+    y = NULL
   ) +
   theme_rweekly()
 ```
@@ -241,6 +282,27 @@ ggplot(first_time_yearly, aes(x = year, y = pct_prs_from_first_time)) +
 
 ::: {.notes}
 R Weekly contributors span **34 countries** across every populated continent. Bubble size and colour scale with the number of unique contributors per country.
+:::
+
+## You Can Shape The Future
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+![](assets/img/tim-mossholder-uROXq1PEQac-unsplash.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+* Sharing R Weekly across your networks
+* Contribute to an upcoming issue
+* Optimize curation process with thoughtful automation
+* Join our team!
+
+:::
+
 :::
 
 ## Thank You!
