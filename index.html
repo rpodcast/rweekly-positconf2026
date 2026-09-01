@@ -150,6 +150,89 @@ The 10-year journey of R Weekly powered by open-source
 <p>Eli Lilly &amp; Company</p>
 <p><span style="font-size: 0.6em"><i class="fa-brands fa-mastodon fa-lg" aria-label="mastodon"></i> <a href="https://podcastindex.org/@rpodcast">@rpodcast</a> &nbsp; <i class="fa-brands fa-bluesky fa-lg" aria-label="bluesky"></i> <a href="https://bsky.app/profile/rpodcast.bsky.social">@rpodcast</a> &nbsp; <i class="fa-brands fa-linkedin fa-lg" aria-label="linkedin"></i> <a href="https://www.linkedin.com/in/eric-nantz-6621617/">eric-nantz</a></span></p>
 </section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/img/revolutions-webview-archive.png"></p>
+<figcaption>Revolutions Blog</figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/img/rbloggers-webview-archive-final.png"></p>
+<figcaption>R-Bloggers</figcaption>
+</figure>
+</div>
+</div>
+</div></div>
+</section>
+<section class="slide level2">
+
+
+<img data-src="assets/img/why-not-both-why-not.gif" class="r-stretch"></section>
+<section id="r-weekly-arrives" class="slide level2">
+<h2>2016: R Weekly Arrives!</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Weekly collection of latest R news and resouces</li>
+<li>Combination of RSS site feeds and individual resources</li>
+<li>R Weekly Team composed of volunteers passionate about the R community</li>
+<li>Highlights voted on by team before issue release</li>
+<li>Entire project is open-source</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<p><img data-src="assets/img/rweekly-webview.png" class="absolute" style="top: 0px; right: 0px; height: 90%; "></p>
+</div></div>
+</section>
+<section id="r-weekly-highlights-podcast" class="slide level2">
+<h2>2020: R Weekly Highlights Podcast!</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<ul>
+<li>Conversations centered on the issue highlights</li>
+<li>Community drives the content!</li>
+<li>Mike Thomas answered the call for the community</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<div style="display: flex; align-items: center; justify-content: center; gap: 1rem;">
+  <img src="assets/img/rpodcast-hexagon.png" alt="R Podcast hexagon logo" style="width: 30%; height: auto;">
+  <img src="assets/img/podcast-logo.png" alt="R Weekly Highlights podcast logo" style="width: 30%; height: auto;">
+  <img src="assets/img/mike-thomas.jpg" alt="Mike Thomas, co-host" style="width: 30%; height: auto;">
+</div>
+</div></div>
+</section>
+
+<section id="uncertainty" class="slide level2">
+<h2>2021: Uncertainty</h2>
+<p><img data-src="assets/img/katie-moum-5FHv5nS7yGg-unsplash.jpg" class="absolute" style="top: 100px; right: 400px; height: 100%; "></p>
+</section>
+<section class="slide level2">
+
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="assets/img/rweekly_curators_rstudioconf.jpg"></p>
+<figcaption>R Weekly curators at rstudio::conf(2020)</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+
+<img data-src="index_files/figure-revealjs/yearly-pr-plot-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"></section>
+<section class="slide level2">
+
+
+<img data-src="index_files/figure-revealjs/yearly-first-time-contributor-percent-plot-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"></section>
 <section id="globe-static" class="slide level2" data-menu-title="Contributor globe">
 <h2></h2>
 
@@ -167,7 +250,6 @@ The 10-year journey of R Weekly powered by open-source
           display:block!important;
       }</style></aside>
 </section>
-
 <section id="thank-you" class="slide level2">
 <h2>Thank You!</h2>
 <div class="columns">
@@ -410,6 +492,44 @@ The 10-year journey of R Weekly powered by open-source
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
