@@ -39,31 +39,7 @@ Eli Lilly & Company
 
 [{{< fa brands mastodon size=lg >}} [\@rpodcast](https://podcastindex.org/@rpodcast) &nbsp; {{< fa brands bluesky size=lg >}} [\@rpodcast](https://bsky.app/profile/rpodcast.bsky.social) &nbsp; {{< fa brands linkedin size=lg >}} [eric-nantz](https://www.linkedin.com/in/eric-nantz-6621617/)]{style="font-size: 0.6em"}
 
----
-
-::: {.columns}
-
-::: {.column width="50%" .fragment}
-
-::: {style="text-align:center;"}
-![Revolutions Blog](assets/img/revolutions-webview-archive.png)
-:::
-
-:::
-
-::: {.column width="50%" .fragment}
-
-::: {style="text-align:center;"}
-![R-Bloggers](assets/img/rbloggers-webview-archive-final.png)
-:::
-
-:::
-
-:::
-
----
-
-![](assets/img/why-not-both-why-not.gif)
+## {background-image="assets/img/sharing.png"}
 
 ## 2016: R Weekly Arrives!
 
@@ -81,13 +57,13 @@ Eli Lilly & Company
 
 ::: {.columns}
 
-::: {.column width="50%" .fragment}
+::: {.column width="45%"}
 
 ![](assets/img/rweekly-webview.png)
 
 :::
 
-::: {.column width="50%" .fragment}
+::: {.column width="55%" .fragment}
 
 ![](assets/img/rweekly-mdview.png)
 
@@ -102,9 +78,8 @@ Eli Lilly & Company
 
 ::: {.column width="40%"}
 
-* Conversations centered on the issue highlights
+* Conversations centered on ssue highlights
 * Community drives the content!
-* Mike Thomas answered the call for the community
 
 :::
 
@@ -167,57 +142,9 @@ ggplot(cadence_yearly_early, aes(x = year, y = merged_prs)) +
   theme_rweekly()
 ```
 
-
-## 2021: Uncertainty
-
-![](assets/img/katie-moum-5FHv5nS7yGg-unsplash.jpg){.absolute top=100 right=400 height="100%"}
-
 ---
 
-::: {style="text-align:center;"}
-![R Weekly curators at rstudio::conf(2020)](assets/img/rweekly_curators_rstudioconf.jpg)
-:::
 
----
-
-```{r}
-#| label: yearly-pr-plot
-#| fig-width: 10
-#| fig-height: 5.5
-#| fig-align: center
-#| dev.args: !expr list(bg = "transparent")
-
-library(dplyr)
-library(ggplot2)
-library(scales)
-
-cadence_yearly <- readr::read_csv("data/cadence_yearly.csv", show_col_types = FALSE) |>
-  arrange(year) |>
-  mutate(cumulative_prs = cumsum(merged_prs))
-
-ggplot(cadence_yearly, aes(x = year, y = cumulative_prs)) +
-  geom_area(fill = rweekly_colors$teal, alpha = 0.20) +
-  geom_line(color = rweekly_colors$teal, linewidth = 1.2) +
-  geom_point(color = rweekly_colors$yellow, size = 3) +
-  geom_text(
-    aes(label = comma(cumulative_prs)),
-    vjust = -1.2,
-    color = rweekly_colors$text,
-    size  = 3.6
-  ) +
-  scale_x_continuous(breaks = cadence_yearly$year) +
-  scale_y_continuous(
-    labels = comma,
-    expand = expansion(mult = c(0.02, 0.12))
-  ) +
-  labs(
-    x = NULL,
-    y = "Cumulative Merged Pull Requests"
-  ) +
-  theme_rweekly()
-```
-
----
 
 ```{r}
 #| label: yearly-first-time-contributor-percent-plot
@@ -298,8 +225,10 @@ R Weekly contributors span **34 countries** across every populated continent. Bu
 
 * Sharing R Weekly across your networks
 * Contribute to an upcoming issue
-* Optimize curation process with thoughtful automation
 * Join our team!
+
+![](assets/img/rweekly-curators-4x2.png){width="90%"}
+
 
 :::
 
@@ -313,21 +242,13 @@ R Weekly contributors span **34 countries** across every populated continent. Bu
 
 ::: {style="font-size: 0.7em"}
 
-📰 **R Weekly Site**:
+📰 **R Weekly Site**: [rweekly.org](https://rweekly.org)
 
-[rweekly.org](https://rweekly.org)
+🎤 **R Weekly Highlights**: [serve.podhome.fm/r-weekly-highlights](https://serve.podhome.fm/r-weekly-highlights)
 
-🎤 **R Weekly Highlights Podcast**:
-
-[serve.podhome.fm/r-weekly-highlights](https://serve.podhome.fm/r-weekly-highlights)
-
-🏡 **Slides**: 
-
-[rpodcast.github.io/rweekly-positconf2026](https://rpodcast.github.io/rweekly-positconf2026/)
+![](assets/img/rweekly_curators_rstudioconf.jpg){width="80%"}
 
 :::
-
-![](assets/img/rpodcast-hexagon.png){width="20%"}
 
 :::
 
@@ -350,7 +271,14 @@ R Weekly contributors span **34 countries** across every populated continent. Bu
 {{< fa brands github size=xl >}} [rpodcast](https://github.com/rpodcast/)
 :::
 
+<br />
+
+{{< qrcode https://rpodcast.github.io/rweekly-positconf2026 width=200 height=200 >}}
+
 :::
 
 ::::
 
+::: footer
+R Weekly curators at rstudio::conf(2020)
+:::
