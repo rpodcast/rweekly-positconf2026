@@ -3,7 +3,6 @@ library(rix)
 rix(
   r_ver = "4.6.1",
   r_pkgs = c(
-    "quarto",
     "knitr",
     "gh",
     "ggplot2",
@@ -16,9 +15,10 @@ rix(
     "magick",
     "sf",
     "rnaturalearth",
-    "rnaturalearthdata"
+    "rnaturalearthdata",
+    "rmarkdown"
   ),
-  system_pkgs = c("quarto", "imagemagick"),
+  system_pkgs = c("imagemagick"),
   ide = "none",
   project_path = ".",
   overwrite = TRUE,
