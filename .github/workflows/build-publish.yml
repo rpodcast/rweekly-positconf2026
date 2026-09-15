@@ -25,12 +25,15 @@ jobs:
           run: nix-build
 
         - name: Install Quarto
-          uses: rstats-on-nix/quarto-nix-actions/setup@v2
-          
-        - name: Publish to GitHub Pages (and render)
-          uses: rstats-on-nix/quarto-nix-actions/publish@v2
+          uses: quarto-dev/quarto-actions/setup@v2
+
+        - name: Render Quarto project inside nix-shell
+          run: nix-shell --run "quarto render"
+
+        - name: Publish to GitHub Pages
+          uses: quarto-dev/quarto-actions/publish@v2
           with:
-            render: true
+            render: false
             target: gh-pages
           env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
