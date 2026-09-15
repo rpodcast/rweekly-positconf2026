@@ -101,6 +101,10 @@ Eli Lilly & Company
 
 :::
 
+![](assets/img/ropensci_mastodon.png){.absolute top=400 left=20}
+
+![](assets/img/matan_hakim_bluesky.png){.absolute top=450 right=20}
+
 ::: footer
 [serve.podhome.fm/r-weekly-highlights](https://serve.podhome.fm/r-weekly-highlights)
 :::
