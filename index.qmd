@@ -105,7 +105,7 @@ Eli Lilly & Company
 * Shiny app for Highlights poll generation
 * Quarto Dashboard for curator calendar
 
----
+## Merged Pull Requests to R Weekly
 
 ```{r}
 #| label: year-pr-plot-before-uncertainty
@@ -119,7 +119,7 @@ library(ggplot2)
 library(scales)
 
 cadence_yearly_early <- readr::read_csv("data/cadence_yearly.csv", show_col_types = FALSE) |>
-  filter(year >= 2016, year <= 2021) |>
+  #filter(year >= 2016, year <= 2021) |>
   arrange(year)
 
 ggplot(cadence_yearly_early, aes(x = year, y = merged_prs)) +
@@ -137,14 +137,12 @@ ggplot(cadence_yearly_early, aes(x = year, y = merged_prs)) +
   ) +
   labs(
     x = NULL,
-    y = "Merged Pull Requests"
+    y = NULL
   ) +
   theme_rweekly()
 ```
 
----
-
-
+## First-time Contributors
 
 ```{r}
 #| label: yearly-first-time-contributor-percent-plot
@@ -194,14 +192,13 @@ ggplot(first_time_yearly, aes(x = year, y = pct_prs_from_first_time)) +
     expand = expansion(mult = c(0, 0.15))
   ) +
   labs(
-    title    = "Share of merged PRs from first-time contributors",
     x = NULL,
     y = NULL
   ) +
   theme_rweekly()
 ```
 
-## {#globe-static data-menu-title="Contributor globe"}
+## Worldwide Community {#globe-static data-menu-title="Contributor globe"}
 
 ::: {.r-stretch}
 ![](assets/img/contributor_globe.png){fig-alt="Two orthographic globes side by side. The left globe shows the Americas, Europe, and Africa with contributor markers over 26 countries; the right shows Asia and Oceania with markers over 8 countries. USA leads with 55 contributors."}
@@ -223,8 +220,8 @@ R Weekly contributors span **34 countries** across every populated continent. Bu
 
 ::: {.column width="50%"}
 
-* Sharing R Weekly across your networks
-* Contribute to an upcoming issue
+* Share R Weekly across your networks.
+* Contribute to an upcoming issue.
 * Join our team!
 
 ![](assets/img/rweekly-curators-4x2.png){width="90%"}
