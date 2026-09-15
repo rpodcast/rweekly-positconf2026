@@ -6,11 +6,11 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script>
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.37">
+  <meta name="generator" content="quarto-1.10.18">
 
   <title>Journey of R Weekly</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -22,10 +22,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -34,7 +37,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-3fe12fee903648c4ea3eec93515be297.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-ecb265271330d9e17bde30a211359aab.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -173,6 +176,9 @@ The 10-year journey of R Weekly powered by open-source
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+<div class="footer">
+<p><a href="https://rweekly.org">rweekly.org</a></p>
+</div>
 </section>
 <section class="slide level2">
 
@@ -188,7 +194,7 @@ The 10-year journey of R Weekly powered by open-source
 <div class="columns">
 <div class="column" style="width:40%;">
 <ul>
-<li>Conversations centered on ssue highlights</li>
+<li>Conversations centered on issue highlights</li>
 <li>Community drives the content!</li>
 </ul>
 </div><div class="column" style="width:60%;">
@@ -198,6 +204,9 @@ The 10-year journey of R Weekly powered by open-source
   <img src="assets/img/mike-thomas.jpg" alt="Mike Thomas, co-host" style="width: 30%; height: auto;">
 </div>
 </div></div>
+<div class="footer">
+<p><a href="https://serve.podhome.fm/r-weekly-highlights">serve.podhome.fm/r-weekly-highlights</a></p>
+</div>
 </section>
 
 <section id="merged-pull-requests-to-r-weekly" class="slide level2">
@@ -209,7 +218,7 @@ The 10-year journey of R Weekly powered by open-source
 
 <img data-src="index_files/figure-revealjs/yearly-first-time-contributor-percent-plot-1.png" class="quarto-figure quarto-figure-center r-stretch" width="960"></section>
 <section id="globe-static" class="slide level2" data-menu-title="Contributor globe">
-<h2>Worldwide Community</h2>
+<h2>Worldwide Contributors</h2>
 
 <img data-src="assets/img/contributor_globe.png" alt="Two orthographic globes side by side. The left globe shows the Americas, Europe, and Africa with contributor markers over 26 countries; the right shows Asia and Oceania with markers over 8 countries. USA leads with 55 contributors." class="r-stretch"><aside class="notes">
 <p>R Weekly contributors span <strong>34 countries</strong> across every populated continent. Bubble size and colour scale with the number of unique contributors per country.</p>
