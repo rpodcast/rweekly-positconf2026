@@ -18,34 +18,41 @@
     "href": "index.html#r-weekly-highlights-podcast",
     "title": "",
     "section": "2020: R Weekly Highlights Podcast!",
-    "text": "2020: R Weekly Highlights Podcast!\n\n\n\nConversations centered on the issue highlights\nCommunity drives the content!\nMike Thomas answered the call for the community"
+    "text": "2020: R Weekly Highlights Podcast!\n\n\n\nConversations centered on ssue highlights\nCommunity drives the content!"
   },
   {
-    "objectID": "index.html#uncertainty",
-    "href": "index.html#uncertainty",
+    "objectID": "index.html#merged-pull-requests-to-r-weekly",
+    "href": "index.html#merged-pull-requests-to-r-weekly",
     "title": "",
-    "section": "2021: Uncertainty",
-    "text": "2021: Uncertainty"
+    "section": "Merged Pull Requests to R Weekly",
+    "text": "Merged Pull Requests to R Weekly"
+  },
+  {
+    "objectID": "index.html#first-time-contributors",
+    "href": "index.html#first-time-contributors",
+    "title": "",
+    "section": "First-time Contributors",
+    "text": "First-time Contributors"
   },
   {
     "objectID": "index.html#globe-static",
     "href": "index.html#globe-static",
     "title": "",
-    "section": "",
-    "text": "R Weekly contributors span 34 countries across every populated continent. Bubble size and colour scale with the number of unique contributors per country."
+    "section": "Worldwide Community",
+    "text": "Worldwide Community\n\n\nR Weekly contributors span 34 countries across every populated continent. Bubble size and colour scale with the number of unique contributors per country."
   },
   {
     "objectID": "index.html#you-can-shape-the-future",
     "href": "index.html#you-can-shape-the-future",
     "title": "",
     "section": "You Can Shape The Future",
-    "text": "You Can Shape The Future\n\n\n\n\n\nSharing R Weekly across your networks\nContribute to an upcoming issue\nOptimize curation process with thoughtful automation\nJoin our team!"
+    "text": "You Can Shape The Future\n\n\n\n\n\nShare R Weekly across your networks.\nContribute to an upcoming issue.\nJoin our team!"
   },
   {
     "objectID": "index.html#thank-you",
     "href": "index.html#thank-you",
     "title": "",
     "section": "Thank You!",
-    "text": "Thank You!\n\n\n\n📰 R Weekly Site:\nrweekly.org\n🎤 R Weekly Highlights Podcast:\nserve.podhome.fm/r-weekly-highlights\n🏡 Slides:\nrpodcast.github.io/rweekly-positconf2026\n\n\n\n\nLet’s Connect!\n R-Podcast\n Shiny Developer Series\n @rpodcast\n @rpodcast\n eric-nantz\n rpodcast"
+    "text": "Thank You!\n\n\n\n📰 R Weekly Site: rweekly.org\n🎤 R Weekly Highlights: serve.podhome.fm/r-weekly-highlights\n\n\n\n\nLet’s Connect!\n R-Podcast\n Shiny Developer Series\n @rpodcast\n @rpodcast\n eric-nantz\n rpodcast\n\n\n\n\n    \n\n\nR Weekly curators at rstudio::conf(2020)"
   }
 ]
