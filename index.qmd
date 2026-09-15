@@ -39,7 +39,7 @@ Eli Lilly & Company
 
 [{{< fa brands mastodon size=lg >}} [\@rpodcast](https://podcastindex.org/@rpodcast) &nbsp; {{< fa brands bluesky size=lg >}} [\@rpodcast](https://bsky.app/profile/rpodcast.bsky.social) &nbsp; {{< fa brands linkedin size=lg >}} [eric-nantz](https://www.linkedin.com/in/eric-nantz-6621617/)]{style="font-size: 0.6em"}
 
-## {background-image="assets/img/sharing.png"}
+## {background-image="assets/img/sharing.png" footer=false}
 
 ## 2016: R Weekly Arrives!
 
