@@ -53,6 +53,10 @@ Eli Lilly & Company
 * Entire project is open-source
 :::
 
+::: footer
+[rweekly.org](https://rweekly.org)
+:::
+
 ---
 
 ::: {.columns}
@@ -78,7 +82,7 @@ Eli Lilly & Company
 
 ::: {.column width="40%"}
 
-* Conversations centered on ssue highlights
+* Conversations centered on issue highlights
 * Community drives the content!
 
 :::
@@ -95,6 +99,10 @@ Eli Lilly & Company
 
 :::
 
+:::
+
+::: footer
+[serve.podhome.fm/r-weekly-highlights](https://serve.podhome.fm/r-weekly-highlights)
 :::
 
 ## Behind the Site {visibility="hidden"}
@@ -198,7 +206,7 @@ ggplot(first_time_yearly, aes(x = year, y = pct_prs_from_first_time)) +
   theme_rweekly()
 ```
 
-## Worldwide Community {#globe-static data-menu-title="Contributor globe"}
+## Worldwide Contributors {#globe-static data-menu-title="Contributor globe"}
 
 ::: {.r-stretch}
 ![](assets/img/contributor_globe.png){fig-alt="Two orthographic globes side by side. The left globe shows the Americas, Europe, and Africa with contributor markers over 26 countries; the right shows Asia and Oceania with markers over 8 countries. USA leads with 55 contributors."}
